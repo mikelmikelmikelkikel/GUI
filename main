@@ -2503,7 +2503,7 @@ local function TQBS_fake_script() -- AudioLoggerButton.ScriptLoader
 	function leftClick()
 		if Spawned == false then
 			script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/emotegui/main/emotegui",true))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/audiologger/main/audiologger",true))()
 		
 		
 		end
