@@ -121,7 +121,7 @@ bootup.TextWrapped = true
 
 -- Scripts:
 
-local function QKODHPX_fake_script() -- MainFrame.DragScript 
+local function TCHAT_fake_script() -- MainFrame.DragScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Name = "DragScript"
@@ -166,8 +166,8 @@ local function QKODHPX_fake_script() -- MainFrame.DragScript
 		end
 	end)
 end
-coroutine.wrap(QKODHPX_fake_script)()
-local function EVTH_fake_script() -- MainFrame.SoundScript 
+coroutine.wrap(TCHAT_fake_script)()
+local function TOTDOYU_fake_script() -- MainFrame.SoundScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Name = "SoundScript"
@@ -187,8 +187,8 @@ local function EVTH_fake_script() -- MainFrame.SoundScript
 	ErrorSound.Parent = script
 	ErrorSound.SoundId = "rbxassetid://3041205264"
 end
-coroutine.wrap(EVTH_fake_script)()
-local function LLII_fake_script() -- Minimize.MinimizeScript 
+coroutine.wrap(TOTDOYU_fake_script)()
+local function BBUMKPP_fake_script() -- Minimize.MinimizeScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	function leftClick()
@@ -199,8 +199,8 @@ local function LLII_fake_script() -- Minimize.MinimizeScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(LLII_fake_script)()
-local function XMZSJCX_fake_script() -- Close.CloseScript 
+coroutine.wrap(BBUMKPP_fake_script)()
+local function YILQH_fake_script() -- Close.CloseScript 
 	local script = Instance.new('LocalScript', Close)
 
 	function leftClick()
@@ -211,8 +211,8 @@ local function XMZSJCX_fake_script() -- Close.CloseScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(XMZSJCX_fake_script)()
-local function UWLL_fake_script() -- Maximize.MaximizeScript 
+coroutine.wrap(YILQH_fake_script)()
+local function DQZP_fake_script() -- Maximize.MaximizeScript 
 	local script = Instance.new('LocalScript', Maximize)
 
 	function leftClick()
@@ -223,8 +223,8 @@ local function UWLL_fake_script() -- Maximize.MaximizeScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(UWLL_fake_script)()
-local function OBKU_fake_script() -- windowslmao.startup 
+coroutine.wrap(DQZP_fake_script)()
+local function RMCOJXW_fake_script() -- windowslmao.startup 
 	local script = Instance.new('LocalScript', windowslmao)
 
 	local suSound = Instance.new("Sound", script.Parent)
@@ -288,8 +288,8 @@ local function OBKU_fake_script() -- windowslmao.startup
 	
 	
 end
-coroutine.wrap(OBKU_fake_script)()
-local function HAMVHCK_fake_script() -- bootup.text 
+coroutine.wrap(RMCOJXW_fake_script)()
+local function VILSDF_fake_script() -- bootup.text 
 	local script = Instance.new('LocalScript', bootup)
 
 	while true do
@@ -301,4 +301,4 @@ local function HAMVHCK_fake_script() -- bootup.text
 		script.Parent.Text = "booting up or smthing..."
 	end
 end
-coroutine.wrap(HAMVHCK_fake_script)()
+coroutine.wrap(VILSDF_fake_script)()
