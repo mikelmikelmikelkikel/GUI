@@ -120,7 +120,7 @@ local Audio = Instance.new("ImageButton")
 --Properties:
 
 Menus.Name = "Menus"
-Menus.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Menus.Parent = game.Players.LocalPlayer.PlayerGui.WindowsXP.MainFrame
 Menus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Menus.BackgroundTransparency = 1.000
 Menus.Position = UDim2.new(0.0971223041, 0, 0.0666666701, 0)
@@ -1157,7 +1157,7 @@ audioslist.TextSize = 14.000
 audioslist.TextWrapped = true
 
 Sidebar.Name = "Sidebar"
-Sidebar.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Sidebar.Parent = game.Players.LocalPlayer.PlayerGui.WindowsXP.MainFrame
 Sidebar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Sidebar.BackgroundTransparency = 1.000
 Sidebar.ClipsDescendants = true
@@ -1216,7 +1216,7 @@ Audio.Image = "rbxassetid://6551735554"
 
 -- Scripts:
 
-local function GRBI_fake_script() -- Set.SetValue 
+local function SDUGIX_fake_script() -- Set.SetValue 
 	local script = Instance.new('LocalScript', Set)
 
 	local Player = game.Players.LocalPlayer
@@ -1238,8 +1238,8 @@ local function GRBI_fake_script() -- Set.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(GRBI_fake_script)()
-local function USAKTR_fake_script() -- Set_2.SetValue 
+coroutine.wrap(SDUGIX_fake_script)()
+local function AGNB_fake_script() -- Set_2.SetValue 
 	local script = Instance.new('LocalScript', Set_2)
 
 	local Player = game.Players.LocalPlayer
@@ -1261,8 +1261,8 @@ local function USAKTR_fake_script() -- Set_2.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(USAKTR_fake_script)()
-local function DIAPD_fake_script() -- Checkbox.SetValue 
+coroutine.wrap(AGNB_fake_script)()
+local function DTIH_fake_script() -- Checkbox.SetValue 
 	local script = Instance.new('LocalScript', Checkbox)
 
 	
@@ -1293,8 +1293,8 @@ local function DIAPD_fake_script() -- Checkbox.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DIAPD_fake_script)()
-local function BXZMYME_fake_script() -- Checkbox_2.SetValue 
+coroutine.wrap(DTIH_fake_script)()
+local function TYEKED_fake_script() -- Checkbox_2.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_2)
 
 	_G.infinjump = false
@@ -1327,8 +1327,8 @@ local function BXZMYME_fake_script() -- Checkbox_2.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(BXZMYME_fake_script)()
-local function FCVWDKH_fake_script() -- Checkbox_3.SetValue 
+coroutine.wrap(TYEKED_fake_script)()
+local function NNPS_fake_script() -- Checkbox_3.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_3)
 
 	local obj = game.workspace
@@ -1367,8 +1367,8 @@ local function FCVWDKH_fake_script() -- Checkbox_3.SetValue
 		end
 	end)
 end
-coroutine.wrap(FCVWDKH_fake_script)()
-local function OZLATJP_fake_script() -- Checkbox_4.SetValue 
+coroutine.wrap(NNPS_fake_script)()
+local function IYWY_fake_script() -- Checkbox_4.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_4)
 
 	flying = false
@@ -1475,8 +1475,8 @@ local function OZLATJP_fake_script() -- Checkbox_4.SetValue
 		end)
 		end)
 end
-coroutine.wrap(OZLATJP_fake_script)()
-local function KCUSAI_fake_script() -- Checkbox_5.SetValue 
+coroutine.wrap(IYWY_fake_script)()
+local function HJAFE_fake_script() -- Checkbox_5.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_5)
 
 	
@@ -1523,8 +1523,8 @@ local function KCUSAI_fake_script() -- Checkbox_5.SetValue
 	
 	
 end
-coroutine.wrap(KCUSAI_fake_script)()
-local function GNVS_fake_script() -- Checkbox_6.SetValue 
+coroutine.wrap(HJAFE_fake_script)()
+local function TQVU_fake_script() -- Checkbox_6.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_6)
 
 	local crashy = true -- CHANGE THIS TO TRUE IF IT CRASHES THIS GAME
@@ -1696,8 +1696,8 @@ local function GNVS_fake_script() -- Checkbox_6.SetValue
 		end)
 	end)
 end
-coroutine.wrap(GNVS_fake_script)()
-local function TUMSBMA_fake_script() -- randomizedtext.randomized; 
+coroutine.wrap(TQVU_fake_script)()
+local function EESNDKB_fake_script() -- randomizedtext.randomized; 
 	local script = Instance.new('LocalScript', randomizedtext)
 
 	local Sentences = {"amogus", "windmill of friendship 卐", "dougie help im bouta bust", "ayo dougie, im from the sah-ooth", "alright Dougie, your time is up", "henry jr and henry cr just chillin on the stairs until roberta kicks jr:(","ahahahaahah pointy plane go BRRRRRRRRRRRRRRR", "420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420", "😳 bro?", "cnn fakes their news cause gay", "we had to call the popo to fix a pipe in the pines house today LOL", "buddy is currently on my epik blue gaming chair trying to eat my mcdonalds sandwhich","biden licks little boys","ranch dip","this text is randomly generated lmao","biden is a garbage president","diet coke tastes very good L","cheese", "alpharad makes good content", "follow DietCokeTastesGood on roblox or you're gay", "only biden supporters like pepsi", "f", "windows pog?!??!?", "ivan is cool", "#superstraight", "heterosexual is the best kind of sexual", "alt+f4 pls", "i just ate a Chobani flip S'more yogurt and it was  good", "bottom text", "top text", "69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69", "Ivan is eating yummy chips rn and they r very pog", "drippy drippy goku XDXDXD"}
@@ -1706,8 +1706,8 @@ local function TUMSBMA_fake_script() -- randomizedtext.randomized;
 		wait(6.9) 
 	end
 end
-coroutine.wrap(TUMSBMA_fake_script)()
-local function LGKE_fake_script() -- randomizedimage.randomized; 
+coroutine.wrap(EESNDKB_fake_script)()
+local function MCGX_fake_script() -- randomizedimage.randomized; 
 	local script = Instance.new('LocalScript', randomizedimage)
 
 	local Images = {"rbxassetid://4759703774", "rbxassetid://1505144534", "rbxassetid://2663223907", "rbxassetid://5666154615", "rbxassetid://1639707845", "rbxassetid://1315317859", "rbxassetid://6464730351", "rbxassetid://6494652399", "rbxassetid://6437395672", "rbxassetid://6425796280", "rbxassetid://6075395846", "rbxassetid://5584500731", "rbxassetid://5610942639", "rbxassetid://5160712341", "rbxassetid://6549351471", "rbxassetid://6550268109", "rbxassetid://5655028554", "rbxassetid://4933468761", "rbxassetid://5710497007", "rbxassetid://5741657918", "rbxassetid://5768229099", "rbxassetid://5898091102", "rbxassetid://5952824955", "rbxassetid://5947794308", "rbxassetid://6032841223", "rbxassetid://4806105685", "rbxassetid://6093779811", "rbxassetid://6117941170", "rbxassetid://6116415183", "rbxassetid://6117966004", "rbxassetid://6109937685", "rbxassetid://5460374612", "rbxassetid://6165969352", "rbxassetid://6002645804", "rbxassetid://6197068901", "rbxassetid://6370900679", "rbxassetid://6243555061", "rbxassetid://6251050057", "rbxassetid://374838431", "rbxassetid://6523940003", "rbxassetid://6447447883"}
@@ -1716,14 +1716,14 @@ local function LGKE_fake_script() -- randomizedimage.randomized;
 		wait(6.9) 
 	end
 end
-coroutine.wrap(LGKE_fake_script)()
-local function KORXTQG_fake_script() -- Welcome.ForConvenience 
+coroutine.wrap(MCGX_fake_script)()
+local function CZKYM_fake_script() -- Welcome.ForConvenience 
 	local script = Instance.new('LocalScript', Welcome)
 
 	wait() script.Parent.Visible = true
 end
-coroutine.wrap(KORXTQG_fake_script)()
-local function WOJARNZ_fake_script() -- ScriptLoadButton.ScriptLoader 
+coroutine.wrap(CZKYM_fake_script)()
+local function UGAS_fake_script() -- ScriptLoadButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ScriptLoadButton)
 
 	local Spawned = false
@@ -1745,8 +1745,8 @@ local function WOJARNZ_fake_script() -- ScriptLoadButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(WOJARNZ_fake_script)()
-local function GTXZ_fake_script() -- ViewHats.ViewHats 
+coroutine.wrap(UGAS_fake_script)()
+local function AJLSVV_fake_script() -- ViewHats.ViewHats 
 	local script = Instance.new('LocalScript', ViewHats)
 
 	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
@@ -1794,8 +1794,8 @@ local function GTXZ_fake_script() -- ViewHats.ViewHats
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(GTXZ_fake_script)()
-local function VALPUMJ_fake_script() -- ScriptLoadButton_2.ScriptLoader 
+coroutine.wrap(AJLSVV_fake_script)()
+local function QRFO_fake_script() -- ScriptLoadButton_2.ScriptLoader 
 	local script = Instance.new('LocalScript', ScriptLoadButton_2)
 
 	local Spawned = false
@@ -1816,8 +1816,8 @@ local function VALPUMJ_fake_script() -- ScriptLoadButton_2.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(VALPUMJ_fake_script)()
-local function IYOYY_fake_script() -- ViewHats_2.ViewHats 
+coroutine.wrap(QRFO_fake_script)()
+local function OHFVN_fake_script() -- ViewHats_2.ViewHats 
 	local script = Instance.new('LocalScript', ViewHats_2)
 
 	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
@@ -1865,8 +1865,8 @@ local function IYOYY_fake_script() -- ViewHats_2.ViewHats
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(IYOYY_fake_script)()
-local function FKVXGJM_fake_script() -- PageSelector.PageScript 
+coroutine.wrap(OHFVN_fake_script)()
+local function PWMC_fake_script() -- PageSelector.PageScript 
 	local script = Instance.new('LocalScript', PageSelector)
 
 	local pageLayout = script.Parent.Parent.Pages.UIPageLayout
@@ -1900,8 +1900,8 @@ local function FKVXGJM_fake_script() -- PageSelector.PageScript
 	
 	pageLayout:JumpToIndex( 0 )
 end
-coroutine.wrap(FKVXGJM_fake_script)()
-local function KZSTBD_fake_script() -- AudioLoggerButton.ScriptLoader 
+coroutine.wrap(PWMC_fake_script)()
+local function XGNFRT_fake_script() -- AudioLoggerButton.ScriptLoader 
 	local script = Instance.new('LocalScript', AudioLoggerButton)
 
 	local Spawned = false
@@ -1918,8 +1918,8 @@ local function KZSTBD_fake_script() -- AudioLoggerButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(KZSTBD_fake_script)()
-local function ASNRZQ_fake_script() -- Arrow.OpenScript 
+coroutine.wrap(XGNFRT_fake_script)()
+local function FCIATRO_fake_script() -- Arrow.OpenScript 
 	local script = Instance.new('LocalScript', Arrow)
 
 	local Open = false
@@ -1942,8 +1942,8 @@ local function ASNRZQ_fake_script() -- Arrow.OpenScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(ASNRZQ_fake_script)()
-local function WERWCN_fake_script() -- Character_2.LocalScript 
+coroutine.wrap(FCIATRO_fake_script)()
+local function LQKFQW_fake_script() -- Character_2.LocalScript 
 	local script = Instance.new('LocalScript', Character_2)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -1963,8 +1963,8 @@ local function WERWCN_fake_script() -- Character_2.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(WERWCN_fake_script)()
-local function PJNYXPZ_fake_script() -- Scripts.LocalScript 
+coroutine.wrap(LQKFQW_fake_script)()
+local function ZJTE_fake_script() -- Scripts.LocalScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -1984,8 +1984,8 @@ local function PJNYXPZ_fake_script() -- Scripts.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(PJNYXPZ_fake_script)()
-local function NYDUQEA_fake_script() -- HatScripts_2.LocalScript 
+coroutine.wrap(ZJTE_fake_script)()
+local function PLCTQLG_fake_script() -- HatScripts_2.LocalScript 
 	local script = Instance.new('LocalScript', HatScripts_2)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2005,8 +2005,8 @@ local function NYDUQEA_fake_script() -- HatScripts_2.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(NYDUQEA_fake_script)()
-local function VRRN_fake_script() -- Audio.LocalScript 
+coroutine.wrap(PLCTQLG_fake_script)()
+local function WSDKB_fake_script() -- Audio.LocalScript 
 	local script = Instance.new('LocalScript', Audio)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2026,4 +2026,4 @@ local function VRRN_fake_script() -- Audio.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(VRRN_fake_script)()
+coroutine.wrap(WSDKB_fake_script)()
