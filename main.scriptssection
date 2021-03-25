@@ -417,7 +417,7 @@ Line.Image = "rbxassetid://6531586437"
 
 -- Scripts:
 
-local function SDVYWUK_fake_script() -- AssassinButton.ScriptLoader 
+local function DYSNO_fake_script() -- AssassinButton.ScriptLoader 
 	local script = Instance.new('LocalScript', AssassinButton)
 
 	local Spawned = false
@@ -433,8 +433,8 @@ local function SDVYWUK_fake_script() -- AssassinButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(SDVYWUK_fake_script)()
-local function QFZWZJ_fake_script() -- ChatBypassButton.ScriptLoader 
+coroutine.wrap(DYSNO_fake_script)()
+local function AEJEXZM_fake_script() -- ChatBypassButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ChatBypassButton)
 
 	local Spawned = false
@@ -450,8 +450,8 @@ local function QFZWZJ_fake_script() -- ChatBypassButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(QFZWZJ_fake_script)()
-local function UWYUA_fake_script() -- MM2Button.ScriptLoader 
+coroutine.wrap(AEJEXZM_fake_script)()
+local function YLGDJGC_fake_script() -- MM2Button.ScriptLoader 
 	local script = Instance.new('LocalScript', MM2Button)
 
 	local Spawned = false
@@ -467,8 +467,8 @@ local function UWYUA_fake_script() -- MM2Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(UWYUA_fake_script)()
-local function RBJZA_fake_script() -- NullwareHubButton.ScriptLoader 
+coroutine.wrap(YLGDJGC_fake_script)()
+local function USHPUT_fake_script() -- NullwareHubButton.ScriptLoader 
 	local script = Instance.new('LocalScript', NullwareHubButton)
 
 	local Spawned = false
@@ -484,8 +484,8 @@ local function RBJZA_fake_script() -- NullwareHubButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(RBJZA_fake_script)()
-local function NBSGBYC_fake_script() -- ProjectPokeButton.ScriptLoader 
+coroutine.wrap(USHPUT_fake_script)()
+local function EMYAUQV_fake_script() -- ProjectPokeButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ProjectPokeButton)
 
 	local Spawned = false
@@ -501,8 +501,8 @@ local function NBSGBYC_fake_script() -- ProjectPokeButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(NBSGBYC_fake_script)()
-local function CISWGPM_fake_script() -- SSSButton.ScriptLoader 
+coroutine.wrap(EMYAUQV_fake_script)()
+local function YFGSFVV_fake_script() -- SSSButton.ScriptLoader 
 	local script = Instance.new('LocalScript', SSSButton)
 
 	local Spawned = false
@@ -518,8 +518,8 @@ local function CISWGPM_fake_script() -- SSSButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(CISWGPM_fake_script)()
-local function MFHYX_fake_script() -- SpecHub1Button.ScriptLoader 
+coroutine.wrap(YFGSFVV_fake_script)()
+local function ZERBEX_fake_script() -- SpecHub1Button.ScriptLoader 
 	local script = Instance.new('LocalScript', SpecHub1Button)
 
 	local Spawned = false
@@ -535,8 +535,8 @@ local function MFHYX_fake_script() -- SpecHub1Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(MFHYX_fake_script)()
-local function SZWNXU_fake_script() -- SpecHub2Button.ScriptLoader 
+coroutine.wrap(ZERBEX_fake_script)()
+local function QBZHF_fake_script() -- SpecHub2Button.ScriptLoader 
 	local script = Instance.new('LocalScript', SpecHub2Button)
 
 	local Spawned = false
@@ -551,8 +551,8 @@ local function SZWNXU_fake_script() -- SpecHub2Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(SZWNXU_fake_script)()
-local function FRFWFCB_fake_script() -- WheresTheBabyButton.ScriptLoader 
+coroutine.wrap(QBZHF_fake_script)()
+local function YTJFKTA_fake_script() -- WheresTheBabyButton.ScriptLoader 
 	local script = Instance.new('LocalScript', WheresTheBabyButton)
 
 	local Spawned = false
@@ -567,8 +567,8 @@ local function FRFWFCB_fake_script() -- WheresTheBabyButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(FRFWFCB_fake_script)()
-local function MBZXF_fake_script() -- ShindoLifeButton.ScriptLoader 
+coroutine.wrap(YTJFKTA_fake_script)()
+local function ZXYUARB_fake_script() -- ShindoLifeButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ShindoLifeButton)
 
 	local Spawned = false
@@ -583,8 +583,8 @@ local function MBZXF_fake_script() -- ShindoLifeButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(MBZXF_fake_script)()
-local function GCIVCU_fake_script() -- AnimateButton.ScriptLoader 
+coroutine.wrap(ZXYUARB_fake_script)()
+local function KJCOYO_fake_script() -- AnimateButton.ScriptLoader 
 	local script = Instance.new('LocalScript', AnimateButton)
 
 	local Spawned = false
@@ -600,8 +600,8 @@ local function GCIVCU_fake_script() -- AnimateButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(GCIVCU_fake_script)()
-local function HRIATW_fake_script() -- CartRideButton.ScriptLoader 
+coroutine.wrap(KJCOYO_fake_script)()
+local function WAPY_fake_script() -- CartRideButton.ScriptLoader 
 	local script = Instance.new('LocalScript', CartRideButton)
 
 	local Spawned = false
@@ -617,8 +617,8 @@ local function HRIATW_fake_script() -- CartRideButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(HRIATW_fake_script)()
-local function AYNUAC_fake_script() -- PageSelector.PageScript 
+coroutine.wrap(WAPY_fake_script)()
+local function ZJSGBIC_fake_script() -- PageSelector.PageScript 
 	local script = Instance.new('LocalScript', PageSelector)
 
 	local pageLayout = script.Parent.Parent.Pages.UIPageLayout
@@ -652,4 +652,4 @@ local function AYNUAC_fake_script() -- PageSelector.PageScript
 	
 	pageLayout:JumpToIndex( 0 )
 end
-coroutine.wrap(AYNUAC_fake_script)()
+coroutine.wrap(ZJSGBIC_fake_script)()
