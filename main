@@ -119,11 +119,47 @@ local CoordsLabel = Instance.new("TextLabel")
 local Invisible = Instance.new("Frame")
 local Checkbox_7 = Instance.new("ImageButton")
 local Title_11 = Instance.new("TextLabel")
+local Scripts = Instance.new("Frame")
+local Title_12 = Instance.new("TextLabel")
+local Pages_2 = Instance.new("Frame")
+local UIPageLayout_2 = Instance.new("UIPageLayout")
+local Page1_2 = Instance.new("Frame")
+local AssassinButton = Instance.new("TextButton")
+local ChatBypassButton = Instance.new("TextButton")
+local MM2Button = Instance.new("TextButton")
+local NullwareHubButton = Instance.new("TextButton")
+local ProjectPokeButton = Instance.new("TextButton")
+local SSSButton = Instance.new("TextButton")
+local AssassinBG = Instance.new("ImageLabel")
+local ChatBypassBG = Instance.new("ImageLabel")
+local MM2BG = Instance.new("ImageLabel")
+local NullwarehubBG = Instance.new("ImageLabel")
+local ProjectPokeBG = Instance.new("ImageLabel")
+local SSSButtonBG = Instance.new("ImageLabel")
+local SpecHub1Button = Instance.new("TextButton")
+local SpecHub1BG = Instance.new("ImageLabel")
+local SpecHub2BG = Instance.new("ImageLabel")
+local SpecHub2Button = Instance.new("TextButton")
+local WheresTheBabyButton = Instance.new("TextButton")
+local WheresTheBabyBG = Instance.new("ImageLabel")
+local ShindoLifeButton = Instance.new("TextButton")
+local ShindoLifeBG = Instance.new("ImageLabel")
+local AnimateButton = Instance.new("TextButton")
+local AnimateBG = Instance.new("ImageLabel")
+local CartRideButton = Instance.new("TextButton")
+local CartRideBG = Instance.new("ImageLabel")
+local PageSelector_2 = Instance.new("Frame")
+local Next_2 = Instance.new("ImageButton")
+local PrevButton_2 = Instance.new("TextButton")
+local NextButton_2 = Instance.new("TextButton")
+local Previous_2 = Instance.new("ImageButton")
+local PageLabel_2 = Instance.new("TextLabel")
+local Line_5 = Instance.new("ImageLabel")
 local Sidebar = Instance.new("Frame")
 local Arrow = Instance.new("ImageButton")
 local Buttons = Instance.new("Frame")
 local Character_2 = Instance.new("ImageButton")
-local Scripts = Instance.new("ImageButton")
+local Scripts_2 = Instance.new("ImageButton")
 local HatScripts_2 = Instance.new("ImageButton")
 local Audio = Instance.new("ImageButton")
 
@@ -1268,8 +1304,381 @@ Title_11.TextScaled = true
 Title_11.TextSize = 14.000
 Title_11.TextWrapped = true
 
+Scripts.Name = "Scripts"
+Scripts.Parent = Menus
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.Size = UDim2.new(0, 250, 0, 434)
+Scripts.Visible = false
+Scripts.ZIndex = 2
+
+Title_12.Name = "Title"
+Title_12.Parent = Scripts
+Title_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_12.BackgroundTransparency = 1.000
+Title_12.Size = UDim2.new(0, 250, 0, 36)
+Title_12.ZIndex = 2
+Title_12.Font = Enum.Font.Arcade
+Title_12.Text = "SCRITPS"
+Title_12.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_12.TextScaled = true
+Title_12.TextSize = 14.000
+Title_12.TextWrapped = true
+
+Pages_2.Name = "Pages"
+Pages_2.Parent = Scripts
+Pages_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pages_2.BackgroundTransparency = 1.000
+Pages_2.ClipsDescendants = true
+Pages_2.Size = UDim2.new(0, 250, 0, 434)
+
+UIPageLayout_2.Parent = Pages_2
+
+Page1_2.Name = "Page1"
+Page1_2.Parent = Pages_2
+Page1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1_2.BackgroundTransparency = 1.000
+Page1_2.Size = UDim2.new(0, 249, 0, 434)
+
+AssassinButton.Name = "AssassinButton"
+AssassinButton.Parent = Page1_2
+AssassinButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AssassinButton.BackgroundTransparency = 1.000
+AssassinButton.Position = UDim2.new(0.0439600199, 0, 0.227847621, 0)
+AssassinButton.Size = UDim2.new(0, 104, 0, 41)
+AssassinButton.ZIndex = 2
+AssassinButton.Font = Enum.Font.Arcade
+AssassinButton.Text = "Assassin GUI"
+AssassinButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+AssassinButton.TextScaled = true
+AssassinButton.TextSize = 14.000
+AssassinButton.TextWrapped = true
+
+ChatBypassButton.Name = "ChatBypassButton"
+ChatBypassButton.Parent = Page1_2
+ChatBypassButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypassButton.BackgroundTransparency = 1.000
+ChatBypassButton.Position = UDim2.new(0.0439599901, 0, 0.115207374, 0)
+ChatBypassButton.Size = UDim2.new(0, 104, 0, 41)
+ChatBypassButton.ZIndex = 2
+ChatBypassButton.Font = Enum.Font.Arcade
+ChatBypassButton.Text = "Chat Bypass GUI"
+ChatBypassButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+ChatBypassButton.TextScaled = true
+ChatBypassButton.TextSize = 14.000
+ChatBypassButton.TextWrapped = true
+
+MM2Button.Name = "MM2Button"
+MM2Button.Parent = Page1_2
+MM2Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2Button.BackgroundTransparency = 1.000
+MM2Button.Position = UDim2.new(0.0439600199, 0, 0.340487927, 0)
+MM2Button.Size = UDim2.new(0, 104, 0, 41)
+MM2Button.ZIndex = 2
+MM2Button.Font = Enum.Font.Arcade
+MM2Button.Text = "MM2 GUI"
+MM2Button.TextColor3 = Color3.fromRGB(139, 139, 139)
+MM2Button.TextScaled = true
+MM2Button.TextSize = 14.000
+MM2Button.TextWrapped = true
+
+NullwareHubButton.Name = "NullwareHubButton"
+NullwareHubButton.Parent = Page1_2
+NullwareHubButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NullwareHubButton.BackgroundTransparency = 1.000
+NullwareHubButton.Position = UDim2.new(0.531960011, 0, 0.340487927, 0)
+NullwareHubButton.Size = UDim2.new(0, 104, 0, 41)
+NullwareHubButton.ZIndex = 2
+NullwareHubButton.Font = Enum.Font.Arcade
+NullwareHubButton.Text = "NullwareHub"
+NullwareHubButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+NullwareHubButton.TextScaled = true
+NullwareHubButton.TextSize = 14.000
+NullwareHubButton.TextWrapped = true
+
+ProjectPokeButton.Name = "ProjectPokeButton"
+ProjectPokeButton.Parent = Page1_2
+ProjectPokeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectPokeButton.BackgroundTransparency = 1.000
+ProjectPokeButton.Position = UDim2.new(0.531960011, 0, 0.227847621, 0)
+ProjectPokeButton.Size = UDim2.new(0, 104, 0, 41)
+ProjectPokeButton.ZIndex = 2
+ProjectPokeButton.Font = Enum.Font.Arcade
+ProjectPokeButton.Text = "Project: Poke Spawner"
+ProjectPokeButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+ProjectPokeButton.TextScaled = true
+ProjectPokeButton.TextSize = 14.000
+ProjectPokeButton.TextWrapped = true
+
+SSSButton.Name = "SSSButton"
+SSSButton.Parent = Page1_2
+SSSButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SSSButton.BackgroundTransparency = 1.000
+SSSButton.Position = UDim2.new(0.531960011, 0, 0.115207374, 0)
+SSSButton.Size = UDim2.new(0, 104, 0, 41)
+SSSButton.ZIndex = 2
+SSSButton.Font = Enum.Font.Arcade
+SSSButton.Text = "Sushi Shop Sim GUI"
+SSSButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+SSSButton.TextScaled = true
+SSSButton.TextSize = 14.000
+SSSButton.TextWrapped = true
+
+AssassinBG.Name = "AssassinBG"
+AssassinBG.Parent = Page1_2
+AssassinBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AssassinBG.BackgroundTransparency = 1.000
+AssassinBG.Position = UDim2.new(0.0279999692, 0, 0.227847621, 0)
+AssassinBG.Size = UDim2.new(0, 114, 0, 41)
+AssassinBG.Image = "rbxassetid://6533134734"
+
+ChatBypassBG.Name = "ChatBypassBG"
+ChatBypassBG.Parent = Page1_2
+ChatBypassBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypassBG.BackgroundTransparency = 1.000
+ChatBypassBG.Position = UDim2.new(0.0280000009, 0, 0.115207374, 0)
+ChatBypassBG.Size = UDim2.new(0, 114, 0, 41)
+ChatBypassBG.Image = "rbxassetid://6533134734"
+
+MM2BG.Name = "MM2BG"
+MM2BG.Parent = Page1_2
+MM2BG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2BG.BackgroundTransparency = 1.000
+MM2BG.Position = UDim2.new(0.0280000009, 0, 0.340487927, 0)
+MM2BG.Size = UDim2.new(0, 114, 0, 41)
+MM2BG.Image = "rbxassetid://6533134734"
+
+NullwarehubBG.Name = "NullwarehubBG"
+NullwarehubBG.Parent = Page1_2
+NullwarehubBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NullwarehubBG.BackgroundTransparency = 1.000
+NullwarehubBG.Position = UDim2.new(0.516000032, 0, 0.340487927, 0)
+NullwarehubBG.Size = UDim2.new(0, 114, 0, 41)
+NullwarehubBG.Image = "rbxassetid://6533134734"
+
+ProjectPokeBG.Name = "ProjectPokeBG"
+ProjectPokeBG.Parent = Page1_2
+ProjectPokeBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectPokeBG.BackgroundTransparency = 1.000
+ProjectPokeBG.Position = UDim2.new(0.516000032, 0, 0.227847621, 0)
+ProjectPokeBG.Size = UDim2.new(0, 114, 0, 41)
+ProjectPokeBG.Image = "rbxassetid://6533134734"
+
+SSSButtonBG.Name = "SSSButtonBG"
+SSSButtonBG.Parent = Page1_2
+SSSButtonBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SSSButtonBG.BackgroundTransparency = 1.000
+SSSButtonBG.Position = UDim2.new(0.516000032, 0, 0.115207374, 0)
+SSSButtonBG.Size = UDim2.new(0, 114, 0, 41)
+SSSButtonBG.Image = "rbxassetid://6533134734"
+
+SpecHub1Button.Name = "SpecHub1Button"
+SpecHub1Button.Parent = Page1_2
+SpecHub1Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpecHub1Button.BackgroundTransparency = 1.000
+SpecHub1Button.Position = UDim2.new(0.0439600199, 0, 0.455576956, 0)
+SpecHub1Button.Size = UDim2.new(0, 104, 0, 41)
+SpecHub1Button.ZIndex = 2
+SpecHub1Button.Font = Enum.Font.Arcade
+SpecHub1Button.Text = "SpecHub 1"
+SpecHub1Button.TextColor3 = Color3.fromRGB(139, 139, 139)
+SpecHub1Button.TextScaled = true
+SpecHub1Button.TextSize = 14.000
+SpecHub1Button.TextWrapped = true
+
+SpecHub1BG.Name = "SpecHub1BG"
+SpecHub1BG.Parent = Page1_2
+SpecHub1BG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpecHub1BG.BackgroundTransparency = 1.000
+SpecHub1BG.Position = UDim2.new(0.0279999692, 0, 0.455576956, 0)
+SpecHub1BG.Size = UDim2.new(0, 114, 0, 41)
+SpecHub1BG.Image = "rbxassetid://6533134734"
+
+SpecHub2BG.Name = "SpecHub2BG"
+SpecHub2BG.Parent = Page1_2
+SpecHub2BG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpecHub2BG.BackgroundTransparency = 1.000
+SpecHub2BG.Position = UDim2.new(0.513943732, 0, 0.455576956, 0)
+SpecHub2BG.Size = UDim2.new(0, 114, 0, 41)
+SpecHub2BG.Image = "rbxassetid://6533134734"
+
+SpecHub2Button.Name = "SpecHub2Button"
+SpecHub2Button.Parent = Page1_2
+SpecHub2Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpecHub2Button.BackgroundTransparency = 1.000
+SpecHub2Button.Position = UDim2.new(0.529903769, 0, 0.455576956, 0)
+SpecHub2Button.Size = UDim2.new(0, 104, 0, 41)
+SpecHub2Button.ZIndex = 2
+SpecHub2Button.Font = Enum.Font.Arcade
+SpecHub2Button.Text = "SpecHub 2"
+SpecHub2Button.TextColor3 = Color3.fromRGB(139, 139, 139)
+SpecHub2Button.TextScaled = true
+SpecHub2Button.TextSize = 14.000
+SpecHub2Button.TextWrapped = true
+
+WheresTheBabyButton.Name = "WheresTheBabyButton"
+WheresTheBabyButton.Parent = Page1_2
+WheresTheBabyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WheresTheBabyButton.BackgroundTransparency = 1.000
+WheresTheBabyButton.Position = UDim2.new(0.0439599901, 0, 0.570665956, 0)
+WheresTheBabyButton.Size = UDim2.new(0, 104, 0, 41)
+WheresTheBabyButton.ZIndex = 2
+WheresTheBabyButton.Font = Enum.Font.Arcade
+WheresTheBabyButton.Text = "Wheres The Baby"
+WheresTheBabyButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+WheresTheBabyButton.TextScaled = true
+WheresTheBabyButton.TextSize = 14.000
+WheresTheBabyButton.TextWrapped = true
+
+WheresTheBabyBG.Name = "WheresTheBabyBG"
+WheresTheBabyBG.Parent = Page1_2
+WheresTheBabyBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WheresTheBabyBG.BackgroundTransparency = 1.000
+WheresTheBabyBG.Position = UDim2.new(0.0279999394, 0, 0.570665956, 0)
+WheresTheBabyBG.Size = UDim2.new(0, 114, 0, 41)
+WheresTheBabyBG.Image = "rbxassetid://6533134734"
+
+ShindoLifeButton.Name = "ShindoLifeButton"
+ShindoLifeButton.Parent = Page1_2
+ShindoLifeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShindoLifeButton.BackgroundTransparency = 1.000
+ShindoLifeButton.Position = UDim2.new(0.529903769, 0, 0.570665956, 0)
+ShindoLifeButton.Size = UDim2.new(0, 104, 0, 41)
+ShindoLifeButton.ZIndex = 2
+ShindoLifeButton.Font = Enum.Font.Arcade
+ShindoLifeButton.Text = "Shindo Life GUI"
+ShindoLifeButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+ShindoLifeButton.TextScaled = true
+ShindoLifeButton.TextSize = 14.000
+ShindoLifeButton.TextWrapped = true
+
+ShindoLifeBG.Name = "ShindoLifeBG"
+ShindoLifeBG.Parent = Page1_2
+ShindoLifeBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShindoLifeBG.BackgroundTransparency = 1.000
+ShindoLifeBG.Position = UDim2.new(0.513943732, 0, 0.570665956, 0)
+ShindoLifeBG.Size = UDim2.new(0, 114, 0, 41)
+ShindoLifeBG.Image = "rbxassetid://6533134734"
+
+AnimateButton.Name = "AnimateButton"
+AnimateButton.Parent = Page1_2
+AnimateButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimateButton.BackgroundTransparency = 1.000
+AnimateButton.Position = UDim2.new(0.0439600199, 0, 0.683306217, 0)
+AnimateButton.Size = UDim2.new(0, 104, 0, 41)
+AnimateButton.ZIndex = 2
+AnimateButton.Font = Enum.Font.Arcade
+AnimateButton.Text = "Animations GUI"
+AnimateButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+AnimateButton.TextScaled = true
+AnimateButton.TextSize = 14.000
+AnimateButton.TextWrapped = true
+
+AnimateBG.Name = "AnimateBG"
+AnimateBG.Parent = Page1_2
+AnimateBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimateBG.BackgroundTransparency = 1.000
+AnimateBG.Position = UDim2.new(0.0279999692, 0, 0.683306217, 0)
+AnimateBG.Size = UDim2.new(0, 114, 0, 41)
+AnimateBG.Image = "rbxassetid://6533134734"
+
+CartRideButton.Name = "CartRideButton"
+CartRideButton.Parent = Page1_2
+CartRideButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CartRideButton.BackgroundTransparency = 1.000
+CartRideButton.Position = UDim2.new(0.529903769, 0, 0.683306217, 0)
+CartRideButton.Size = UDim2.new(0, 104, 0, 41)
+CartRideButton.ZIndex = 2
+CartRideButton.Font = Enum.Font.Arcade
+CartRideButton.Text = "Cart Ride GUI"
+CartRideButton.TextColor3 = Color3.fromRGB(139, 139, 139)
+CartRideButton.TextScaled = true
+CartRideButton.TextSize = 14.000
+CartRideButton.TextWrapped = true
+
+CartRideBG.Name = "CartRideBG"
+CartRideBG.Parent = Page1_2
+CartRideBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CartRideBG.BackgroundTransparency = 1.000
+CartRideBG.Position = UDim2.new(0.513943732, 0, 0.683306217, 0)
+CartRideBG.Size = UDim2.new(0, 114, 0, 41)
+CartRideBG.Image = "rbxassetid://6533134734"
+
+PageSelector_2.Name = "PageSelector"
+PageSelector_2.Parent = Scripts
+PageSelector_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageSelector_2.BackgroundTransparency = 1.000
+PageSelector_2.Position = UDim2.new(0.231999993, 0, 0.910138249, 0)
+PageSelector_2.Size = UDim2.new(0, 135, 0, 29)
+
+Next_2.Name = "Next"
+Next_2.Parent = PageSelector_2
+Next_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Next_2.BackgroundTransparency = 1.000
+Next_2.Position = UDim2.new(1.10370374, 0, -0.068965517, 0)
+Next_2.Size = UDim2.new(0, 29, 0, 29)
+Next_2.Image = "rbxassetid://6531531478"
+
+PrevButton_2.Name = "PrevButton"
+PrevButton_2.Parent = PageSelector_2
+PrevButton_2.AnchorPoint = Vector2.new(1, 0.5)
+PrevButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PrevButton_2.BackgroundTransparency = 1.000
+PrevButton_2.Position = UDim2.new(0.214814812, -48, 0.461044818, 0)
+PrevButton_2.Size = UDim2.new(0, 29, 0, 29)
+PrevButton_2.ZIndex = 8
+PrevButton_2.Font = Enum.Font.SourceSans
+PrevButton_2.Text = ""
+PrevButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+PrevButton_2.TextSize = 30.000
+PrevButton_2.TextWrapped = true
+
+NextButton_2.Name = "NextButton"
+NextButton_2.Parent = PageSelector_2
+NextButton_2.AnchorPoint = Vector2.new(0, 0.5)
+NextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NextButton_2.BackgroundTransparency = 1.000
+NextButton_2.Position = UDim2.new(0.742680073, 48, 0.468590051, 0)
+NextButton_2.Size = UDim2.new(0, 29, 0, 29)
+NextButton_2.ZIndex = 8
+NextButton_2.Font = Enum.Font.SourceSans
+NextButton_2.Text = ""
+NextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+NextButton_2.TextSize = 30.000
+NextButton_2.TextWrapped = true
+
+Previous_2.Name = "Previous"
+Previous_2.Parent = PageSelector_2
+Previous_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Previous_2.BackgroundTransparency = 1.000
+Previous_2.Position = UDim2.new(-0.355555564, 0, -0.068965517, 0)
+Previous_2.Size = UDim2.new(0, 29, 0, 29)
+Previous_2.Image = "rbxassetid://6531531599"
+
+PageLabel_2.Name = "PageLabel"
+PageLabel_2.Parent = PageSelector_2
+PageLabel_2.BackgroundColor3 = Color3.fromRGB(203, 203, 203)
+PageLabel_2.BackgroundTransparency = 0.500
+PageLabel_2.BorderSizePixel = 0
+PageLabel_2.Position = UDim2.new(-0.140740737, 0, -0.068965517, 0)
+PageLabel_2.Size = UDim2.new(0, 168, 0, 29)
+PageLabel_2.Font = Enum.Font.Arcade
+PageLabel_2.Text = "1  /  1"
+PageLabel_2.TextColor3 = Color3.fromRGB(139, 139, 139)
+PageLabel_2.TextScaled = true
+PageLabel_2.TextSize = 14.000
+PageLabel_2.TextWrapped = true
+
+Line_5.Name = "Line"
+Line_5.Parent = Scripts
+Line_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_5.BackgroundTransparency = 1.000
+Line_5.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
+Line_5.Size = UDim2.new(0, 249, 0, 6)
+Line_5.Image = "rbxassetid://6531586437"
+
 Sidebar.Name = "Sidebar"
-Sidebar.Parent = game.Player.LocalPlayer.PlayerGui.WindowsXP.MainFrame
+Sidebar.Parent = game.Players.LocalPlayer.PlayerGui.WindowsXP.MainFrame
 Sidebar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Sidebar.BackgroundTransparency = 1.000
 Sidebar.ClipsDescendants = true
@@ -1299,14 +1708,14 @@ Character_2.Size = UDim2.new(0, 27, 0, 27)
 Character_2.ZIndex = 0
 Character_2.Image = "rbxassetid://6531571204"
 
-Scripts.Name = "Scripts"
-Scripts.Parent = Buttons
-Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Scripts.BackgroundTransparency = 1.000
-Scripts.Position = UDim2.new(0, 0, 0.0884520859, 0)
-Scripts.Size = UDim2.new(0, 27, 0, 27)
-Scripts.ZIndex = 0
-Scripts.Image = "rbxassetid://6535321027"
+Scripts_2.Name = "Scripts"
+Scripts_2.Parent = Buttons
+Scripts_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts_2.BackgroundTransparency = 1.000
+Scripts_2.Position = UDim2.new(0, 0, 0.0884520859, 0)
+Scripts_2.Size = UDim2.new(0, 27, 0, 27)
+Scripts_2.ZIndex = 0
+Scripts_2.Image = "rbxassetid://6535321027"
 
 HatScripts_2.Name = "HatScripts"
 HatScripts_2.Parent = Buttons
@@ -1328,7 +1737,7 @@ Audio.Image = "rbxassetid://6551735554"
 
 -- Scripts:
 
-local function XXLFY_fake_script() -- randomizedtext.randomized; 
+local function SQNZD_fake_script() -- randomizedtext.randomized; 
 	local script = Instance.new('LocalScript', randomizedtext)
 
 	local Sentences = {"amogus", "windmill of friendship 卐", "dougie help im bouta bust", "ayo dougie, im from the sah-ooth", "alright Dougie, your time is up", "henry jr and henry cr just chillin on the stairs until roberta kicks jr:(","ahahahaahah pointy plane go BRRRRRRRRRRRRRRR", "420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420", "😳 bro?", "cnn fakes their news cause gay", "we had to call the popo to fix a pipe in the pines house today LOL", "buddy is currently on my epik blue gaming chair trying to eat my mcdonalds sandwhich","biden licks little boys","ranch dip","this text is randomly generated lmao","biden is a garbage president","diet coke tastes very good L","cheese", "alpharad makes good content", "follow DietCokeTastesGood on roblox or you're gay", "only biden supporters like pepsi", "f", "windows pog?!??!?", "ivan is cool", "#superstraight", "heterosexual is the best kind of sexual", "alt+f4 pls", "i just ate a Chobani flip S'more yogurt and it was  good", "bottom text", "top text", "69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69", "Ivan is eating yummy chips rn and they r very pog", "drippy drippy goku XDXDXD"}
@@ -1337,8 +1746,8 @@ local function XXLFY_fake_script() -- randomizedtext.randomized;
 		wait(6.9) 
 	end
 end
-coroutine.wrap(XXLFY_fake_script)()
-local function IJVV_fake_script() -- randomizedimage.randomized; 
+coroutine.wrap(SQNZD_fake_script)()
+local function BTHCZUM_fake_script() -- randomizedimage.randomized; 
 	local script = Instance.new('LocalScript', randomizedimage)
 
 	local Images = {"rbxassetid://4759703774", "rbxassetid://1505144534", "rbxassetid://2663223907", "rbxassetid://5666154615", "rbxassetid://1639707845", "rbxassetid://1315317859", "rbxassetid://6464730351", "rbxassetid://6494652399", "rbxassetid://6437395672", "rbxassetid://6425796280", "rbxassetid://6075395846", "rbxassetid://5584500731", "rbxassetid://5610942639", "rbxassetid://5160712341", "rbxassetid://6549351471", "rbxassetid://6550268109", "rbxassetid://5655028554", "rbxassetid://4933468761", "rbxassetid://5710497007", "rbxassetid://5741657918", "rbxassetid://5768229099", "rbxassetid://5898091102", "rbxassetid://5952824955", "rbxassetid://5947794308", "rbxassetid://6032841223", "rbxassetid://4806105685", "rbxassetid://6093779811", "rbxassetid://6117941170", "rbxassetid://6116415183", "rbxassetid://6117966004", "rbxassetid://6109937685", "rbxassetid://5460374612", "rbxassetid://6165969352", "rbxassetid://6002645804", "rbxassetid://6197068901", "rbxassetid://6370900679", "rbxassetid://6243555061", "rbxassetid://6251050057", "rbxassetid://374838431", "rbxassetid://6523940003", "rbxassetid://6447447883"}
@@ -1347,8 +1756,8 @@ local function IJVV_fake_script() -- randomizedimage.randomized;
 		wait(6.9) 
 	end
 end
-coroutine.wrap(IJVV_fake_script)()
-local function QMVX_fake_script() -- ScriptLoadButton.ScriptLoader 
+coroutine.wrap(BTHCZUM_fake_script)()
+local function OWEJGQ_fake_script() -- ScriptLoadButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ScriptLoadButton)
 
 	local Spawned = false
@@ -1370,8 +1779,8 @@ local function QMVX_fake_script() -- ScriptLoadButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(QMVX_fake_script)()
-local function KCVSEOU_fake_script() -- ViewHats.ViewHats 
+coroutine.wrap(OWEJGQ_fake_script)()
+local function UWYCG_fake_script() -- ViewHats.ViewHats 
 	local script = Instance.new('LocalScript', ViewHats)
 
 	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
@@ -1419,8 +1828,8 @@ local function KCVSEOU_fake_script() -- ViewHats.ViewHats
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(KCVSEOU_fake_script)()
-local function RVFU_fake_script() -- ScriptLoadButton_2.ScriptLoader 
+coroutine.wrap(UWYCG_fake_script)()
+local function TZIVLSZ_fake_script() -- ScriptLoadButton_2.ScriptLoader 
 	local script = Instance.new('LocalScript', ScriptLoadButton_2)
 
 	local Spawned = false
@@ -1441,8 +1850,8 @@ local function RVFU_fake_script() -- ScriptLoadButton_2.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(RVFU_fake_script)()
-local function DEIMRB_fake_script() -- ViewHats_2.ViewHats 
+coroutine.wrap(TZIVLSZ_fake_script)()
+local function BUNWFWC_fake_script() -- ViewHats_2.ViewHats 
 	local script = Instance.new('LocalScript', ViewHats_2)
 
 	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
@@ -1490,8 +1899,8 @@ local function DEIMRB_fake_script() -- ViewHats_2.ViewHats
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DEIMRB_fake_script)()
-local function KGHUWA_fake_script() -- ScriptLoadButton_3.ScriptLoader 
+coroutine.wrap(BUNWFWC_fake_script)()
+local function BWXBR_fake_script() -- ScriptLoadButton_3.ScriptLoader 
 	local script = Instance.new('LocalScript', ScriptLoadButton_3)
 
 	local Spawned = false
@@ -1512,8 +1921,8 @@ local function KGHUWA_fake_script() -- ScriptLoadButton_3.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(KGHUWA_fake_script)()
-local function CLSBLK_fake_script() -- ViewHats_3.ViewHats 
+coroutine.wrap(BWXBR_fake_script)()
+local function ETEPM_fake_script() -- ViewHats_3.ViewHats 
 	local script = Instance.new('LocalScript', ViewHats_3)
 
 	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
@@ -1561,8 +1970,8 @@ local function CLSBLK_fake_script() -- ViewHats_3.ViewHats
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(CLSBLK_fake_script)()
-local function NJYFRWY_fake_script() -- PageSelector.PageScript 
+coroutine.wrap(ETEPM_fake_script)()
+local function YBETYF_fake_script() -- PageSelector.PageScript 
 	local script = Instance.new('LocalScript', PageSelector)
 
 	local pageLayout = script.Parent.Parent.Pages.UIPageLayout
@@ -1596,8 +2005,8 @@ local function NJYFRWY_fake_script() -- PageSelector.PageScript
 	
 	pageLayout:JumpToIndex( 0 )
 end
-coroutine.wrap(NJYFRWY_fake_script)()
-local function IBUKDQ_fake_script() -- AudioLoggerButton.ScriptLoader 
+coroutine.wrap(YBETYF_fake_script)()
+local function SYYVVWR_fake_script() -- AudioLoggerButton.ScriptLoader 
 	local script = Instance.new('LocalScript', AudioLoggerButton)
 
 	local Spawned = false
@@ -1614,8 +2023,8 @@ local function IBUKDQ_fake_script() -- AudioLoggerButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(IBUKDQ_fake_script)()
-local function HEKMDA_fake_script() -- Set.SetValue 
+coroutine.wrap(SYYVVWR_fake_script)()
+local function AOUR_fake_script() -- Set.SetValue 
 	local script = Instance.new('LocalScript', Set)
 
 	local Player = game.Players.LocalPlayer
@@ -1637,8 +2046,8 @@ local function HEKMDA_fake_script() -- Set.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(HEKMDA_fake_script)()
-local function WRWJUW_fake_script() -- Set_2.SetValue 
+coroutine.wrap(AOUR_fake_script)()
+local function FZIM_fake_script() -- Set_2.SetValue 
 	local script = Instance.new('LocalScript', Set_2)
 
 	local Player = game.Players.LocalPlayer
@@ -1660,8 +2069,8 @@ local function WRWJUW_fake_script() -- Set_2.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(WRWJUW_fake_script)()
-local function WWKLVWJ_fake_script() -- Checkbox.SetValue 
+coroutine.wrap(FZIM_fake_script)()
+local function CZOF_fake_script() -- Checkbox.SetValue 
 	local script = Instance.new('LocalScript', Checkbox)
 
 	
@@ -1692,8 +2101,8 @@ local function WWKLVWJ_fake_script() -- Checkbox.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(WWKLVWJ_fake_script)()
-local function RASPM_fake_script() -- Checkbox_2.SetValue 
+coroutine.wrap(CZOF_fake_script)()
+local function YUSJ_fake_script() -- Checkbox_2.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_2)
 
 	_G.infinjump = false
@@ -1726,8 +2135,8 @@ local function RASPM_fake_script() -- Checkbox_2.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(RASPM_fake_script)()
-local function NEQOWM_fake_script() -- Checkbox_3.SetValue 
+coroutine.wrap(YUSJ_fake_script)()
+local function YIMCY_fake_script() -- Checkbox_3.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_3)
 
 	local obj = game.workspace
@@ -1766,8 +2175,8 @@ local function NEQOWM_fake_script() -- Checkbox_3.SetValue
 		end
 	end)
 end
-coroutine.wrap(NEQOWM_fake_script)()
-local function YXEUS_fake_script() -- Checkbox_4.SetValue 
+coroutine.wrap(YIMCY_fake_script)()
+local function MMIKHR_fake_script() -- Checkbox_4.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_4)
 
 	flying = false
@@ -1874,8 +2283,8 @@ local function YXEUS_fake_script() -- Checkbox_4.SetValue
 		end)
 		end)
 end
-coroutine.wrap(YXEUS_fake_script)()
-local function JVXOXI_fake_script() -- Checkbox_5.SetValue 
+coroutine.wrap(MMIKHR_fake_script)()
+local function DRPIONL_fake_script() -- Checkbox_5.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_5)
 
 	
@@ -1922,8 +2331,8 @@ local function JVXOXI_fake_script() -- Checkbox_5.SetValue
 	
 	
 end
-coroutine.wrap(JVXOXI_fake_script)()
-local function WJWGLI_fake_script() -- Checkbox_6.SetValue 
+coroutine.wrap(DRPIONL_fake_script)()
+local function SYMAYFL_fake_script() -- Checkbox_6.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_6)
 
 	local crashy = true -- CHANGE THIS TO TRUE IF IT CRASHES THIS GAME
@@ -2095,8 +2504,8 @@ local function WJWGLI_fake_script() -- Checkbox_6.SetValue
 		end)
 	end)
 end
-coroutine.wrap(WJWGLI_fake_script)()
-local function ERPBOV_fake_script() -- CurrentCoords.CoordUpdater 
+coroutine.wrap(SYMAYFL_fake_script)()
+local function BUOUR_fake_script() -- CurrentCoords.CoordUpdater 
 	local script = Instance.new('LocalScript', CurrentCoords)
 
 	local Players = game:GetService("Players")
@@ -2127,8 +2536,8 @@ local function ERPBOV_fake_script() -- CurrentCoords.CoordUpdater
 	Players.PlayerAdded:Connect(onPlayerAdded)
 	
 end
-coroutine.wrap(ERPBOV_fake_script)()
-local function KURVHR_fake_script() -- Coords2Clipboard.Copy2Clipboard 
+coroutine.wrap(BUOUR_fake_script)()
+local function WHMEQ_fake_script() -- Coords2Clipboard.Copy2Clipboard 
 	local script = Instance.new('LocalScript', Coords2Clipboard)
 
 	function leftClick()
@@ -2138,8 +2547,8 @@ local function KURVHR_fake_script() -- Coords2Clipboard.Copy2Clipboard
 	
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(KURVHR_fake_script)()
-local function CKILY_fake_script() -- Checkbox_7.SetValue 
+coroutine.wrap(WHMEQ_fake_script)()
+local function RSBAF_fake_script() -- Checkbox_7.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_7)
 
 	Local = game:GetService('Players').LocalPlayer
@@ -2197,8 +2606,244 @@ local function CKILY_fake_script() -- Checkbox_7.SetValue
 	
 	
 end
-coroutine.wrap(CKILY_fake_script)()
-local function ALLRPSM_fake_script() -- Arrow.OpenScript 
+coroutine.wrap(RSBAF_fake_script)()
+local function ZXSU_fake_script() -- AssassinButton.ScriptLoader 
+	local script = Instance.new('LocalScript', AssassinButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/assassingui/main/guis",true))()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(ZXSU_fake_script)()
+local function OGXWJ_fake_script() -- ChatBypassButton.ScriptLoader 
+	local script = Instance.new('LocalScript', ChatBypassButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(OGXWJ_fake_script)()
+local function NXSA_fake_script() -- MM2Button.ScriptLoader 
+	local script = Instance.new('LocalScript', MM2Button)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/mm2/main/mm2",true))()
+			
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(NXSA_fake_script)()
+local function VZTN_fake_script() -- NullwareHubButton.ScriptLoader 
+	local script = Instance.new('LocalScript', NullwareHubButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/37eef2120d509b37b31fa73944ab2361/raw/kT2fVEFnzDfCRXAP",true))()
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(VZTN_fake_script)()
+local function BRYYD_fake_script() -- ProjectPokeButton.ScriptLoader 
+	local script = Instance.new('LocalScript', ProjectPokeButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/projectpokespawn/main/projectpokespawn",true))()
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(BRYYD_fake_script)()
+local function TPTXEN_fake_script() -- SSSButton.ScriptLoader 
+	local script = Instance.new('LocalScript', SSSButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Just-Egg-Salad/roblox-scripts/main/sushi%20shop%20simulator",true))()
+			
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(TPTXEN_fake_script)()
+local function GQOKRHO_fake_script() -- SpecHub1Button.ScriptLoader 
+	local script = Instance.new('LocalScript', SpecHub1Button)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://pastebin.com/raw/4xJCJA7T",true))()
+			
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(GQOKRHO_fake_script)()
+local function HLKG_fake_script() -- SpecHub2Button.ScriptLoader 
+	local script = Instance.new('LocalScript', SpecHub2Button)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://pastebin.com/raw/JepZy4GB",true))()
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(HLKG_fake_script)()
+local function AMNPDGO_fake_script() -- WheresTheBabyButton.ScriptLoader 
+	local script = Instance.new('LocalScript', WheresTheBabyButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/wtbexe/main/wtbexe",true))()
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(AMNPDGO_fake_script)()
+local function EDMWWH_fake_script() -- ShindoLifeButton.ScriptLoader 
+	local script = Instance.new('LocalScript', ShindoLifeButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/shindolifescript/main/shindolifescript",true))()
+			script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(EDMWWH_fake_script)()
+local function JQLKVA_fake_script() -- AnimateButton.ScriptLoader 
+	local script = Instance.new('LocalScript', AnimateButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/emotegui2/main/emotegui2",true))()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(JQLKVA_fake_script)()
+local function MUDB_fake_script() -- CartRideButton.ScriptLoader 
+	local script = Instance.new('LocalScript', CartRideButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/kartguixp/main/kartguixp",true))()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(MUDB_fake_script)()
+local function PKOMOGD_fake_script() -- PageSelector_2.PageScript 
+	local script = Instance.new('LocalScript', PageSelector_2)
+
+	local pageLayout = script.Parent.Parent.Pages.UIPageLayout
+	local nextButton = script.Parent.NextButton
+	local prevButton = script.Parent.PrevButton
+	local totalPages = 1
+	local currentPage = 1
+	local pageLabel = script.Parent.PageLabel
+	
+	nextButton.MouseButton1Click:Connect( function ()
+		pageLayout:Next()
+		script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		if currentPage == totalPages then print("On last page!")
+		else
+			currentPage = currentPage + 1
+	
+			pageLabel.Text = ""..currentPage.."  /  "..totalPages..""
+		end
+	end)
+	
+	
+	prevButton.MouseButton1Click:Connect( function ()
+		pageLayout:Previous()
+		script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		if currentPage == 1 then print("On first page!")
+		else
+			currentPage = currentPage - 1
+			pageLabel.Text = ""..currentPage.."  /  "..totalPages..""
+		end
+	end)
+	
+	pageLayout:JumpToIndex( 0 )
+end
+coroutine.wrap(PKOMOGD_fake_script)()
+local function ZYBR_fake_script() -- Arrow.OpenScript 
 	local script = Instance.new('LocalScript', Arrow)
 
 	local Open = false
@@ -2221,8 +2866,8 @@ local function ALLRPSM_fake_script() -- Arrow.OpenScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(ALLRPSM_fake_script)()
-local function DBFQV_fake_script() -- Character_2.LocalScript 
+coroutine.wrap(ZYBR_fake_script)()
+local function KHSZ_fake_script() -- Character_2.LocalScript 
 	local script = Instance.new('LocalScript', Character_2)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2242,9 +2887,9 @@ local function DBFQV_fake_script() -- Character_2.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DBFQV_fake_script)()
-local function MOFZ_fake_script() -- Scripts.LocalScript 
-	local script = Instance.new('LocalScript', Scripts)
+coroutine.wrap(KHSZ_fake_script)()
+local function JCMTHHX_fake_script() -- Scripts_2.LocalScript 
+	local script = Instance.new('LocalScript', Scripts_2)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
 	
@@ -2263,8 +2908,8 @@ local function MOFZ_fake_script() -- Scripts.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(MOFZ_fake_script)()
-local function LCTI_fake_script() -- HatScripts_2.LocalScript 
+coroutine.wrap(JCMTHHX_fake_script)()
+local function YTDYSG_fake_script() -- HatScripts_2.LocalScript 
 	local script = Instance.new('LocalScript', HatScripts_2)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2284,8 +2929,8 @@ local function LCTI_fake_script() -- HatScripts_2.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(LCTI_fake_script)()
-local function DIXT_fake_script() -- Audio.LocalScript 
+coroutine.wrap(YTDYSG_fake_script)()
+local function JHTWK_fake_script() -- Audio.LocalScript 
 	local script = Instance.new('LocalScript', Audio)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2305,4 +2950,4 @@ local function DIXT_fake_script() -- Audio.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DIXT_fake_script)()
+coroutine.wrap(JHTWK_fake_script)()
