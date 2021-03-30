@@ -35,7 +35,7 @@ DragFrame.Parent = MainFrame
 DragFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DragFrame.BackgroundTransparency = 1.000
 DragFrame.Position = UDim2.new(0.101372041, 0, 0, 0)
-DragFrame.Size = UDim2.new(0, 169, 0, 31)
+DragFrame.Size = UDim2.new(0, 141, 0, 31)
 
 XPBackground.Name = "XPBackground"
 XPBackground.Parent = MainFrame
@@ -132,7 +132,7 @@ bootup.TextWrapped = true
 
 -- Scripts:
 
-local function EHVIXAE_fake_script() -- MainFrame.DragScript 
+local function WJEIQN_fake_script() -- MainFrame.DragScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Name = "DragScript"
@@ -177,8 +177,8 @@ local function EHVIXAE_fake_script() -- MainFrame.DragScript
 		end
 	end)
 end
-coroutine.wrap(EHVIXAE_fake_script)()
-local function HLWKR_fake_script() -- MainFrame.SoundScript 
+coroutine.wrap(WJEIQN_fake_script)()
+local function EACV_fake_script() -- MainFrame.SoundScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Name = "SoundScript"
@@ -198,8 +198,8 @@ local function HLWKR_fake_script() -- MainFrame.SoundScript
 	ErrorSound.Parent = script
 	ErrorSound.SoundId = "rbxassetid://3041205264"
 end
-coroutine.wrap(HLWKR_fake_script)()
-local function WOOW_fake_script() -- Close.CloseScript 
+coroutine.wrap(EACV_fake_script)()
+local function TBDR_fake_script() -- Close.CloseScript 
 	local script = Instance.new('LocalScript', Close)
 
 	function leftClick()
@@ -210,8 +210,8 @@ local function WOOW_fake_script() -- Close.CloseScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(WOOW_fake_script)()
-local function LINS_fake_script() -- Maximize.MaximizeScript 
+coroutine.wrap(TBDR_fake_script)()
+local function NDQBIYA_fake_script() -- Maximize.MaximizeScript 
 	local script = Instance.new('LocalScript', Maximize)
 
 	function leftClick()
@@ -222,8 +222,8 @@ local function LINS_fake_script() -- Maximize.MaximizeScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(LINS_fake_script)()
-local function LQBZWL_fake_script() -- Minimize.MinimizeScript 
+coroutine.wrap(NDQBIYA_fake_script)()
+local function HBENREH_fake_script() -- Minimize.MinimizeScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	function leftClick()
@@ -234,11 +234,11 @@ local function LQBZWL_fake_script() -- Minimize.MinimizeScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(LQBZWL_fake_script)()
-local function NHHPYB_fake_script() -- Home.HomeScript 
+coroutine.wrap(HBENREH_fake_script)()
+local function JOUDN_fake_script() -- Home.HomeScript 
 	local script = Instance.new('LocalScript', Home)
 
-	local Menus = script.Parent.Parent.Parent.Menus
+	local Menus = script.Parent.Parent.Parent:WaitForChild("Menus")
 	
 	function leftClick()
 		script.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
@@ -252,8 +252,8 @@ local function NHHPYB_fake_script() -- Home.HomeScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(NHHPYB_fake_script)()
-local function EAESOUC_fake_script() -- windowslmao.startup 
+coroutine.wrap(JOUDN_fake_script)()
+local function TTNAMT_fake_script() -- windowslmao.startup 
 	local script = Instance.new('LocalScript', windowslmao)
 
 	local suSound = Instance.new("Sound", script.Parent)
@@ -317,8 +317,8 @@ local function EAESOUC_fake_script() -- windowslmao.startup
 	
 	
 end
-coroutine.wrap(EAESOUC_fake_script)()
-local function ZCVK_fake_script() -- bootup.text 
+coroutine.wrap(TTNAMT_fake_script)()
+local function XLNKY_fake_script() -- bootup.text 
 	local script = Instance.new('LocalScript', bootup)
 
 	while true do
@@ -330,4 +330,4 @@ local function ZCVK_fake_script() -- bootup.text
 		script.Parent.Text = "booting up or smthing..."
 	end
 end
-coroutine.wrap(ZCVK_fake_script)()
+coroutine.wrap(XLNKY_fake_script)()
