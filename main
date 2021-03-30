@@ -4,51 +4,14 @@
 -- Instances:
 
 local Menus = Instance.new("Frame")
-local Character = Instance.new("Frame")
+local Welcome = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local Line = Instance.new("ImageLabel")
-local Walkspeed = Instance.new("Frame")
-local TextBG = Instance.new("ImageLabel")
-local SpeedBox = Instance.new("TextBox")
-local Set = Instance.new("ImageButton")
-local Jumpheight = Instance.new("Frame")
-local TextBG_2 = Instance.new("ImageLabel")
-local JumpBox = Instance.new("TextBox")
-local Set_2 = Instance.new("ImageButton")
-local NoClip = Instance.new("Frame")
-local Checkbox = Instance.new("ImageButton")
-local Title_2 = Instance.new("TextLabel")
-local InfJump = Instance.new("Frame")
-local Checkbox_2 = Instance.new("ImageButton")
-local Title_3 = Instance.new("TextLabel")
-local PartXray = Instance.new("Frame")
-local Checkbox_3 = Instance.new("ImageButton")
-local Title_4 = Instance.new("TextLabel")
-local Fly = Instance.new("Frame")
-local Checkbox_4 = Instance.new("ImageButton")
-local Title_5 = Instance.new("TextLabel")
-local x = Instance.new("TextLabel")
-local ClickToTP = Instance.new("Frame")
-local Checkbox_5 = Instance.new("ImageButton")
-local Title_6 = Instance.new("TextLabel")
-local CTRL = Instance.new("TextLabel")
-local PlayerXray = Instance.new("Frame")
-local Checkbox_6 = Instance.new("ImageButton")
-local Title_7 = Instance.new("TextLabel")
-local CurrentCoords = Instance.new("TextLabel")
-local Coords2Clipboard = Instance.new("ImageButton")
-local CoordsLabel = Instance.new("TextLabel")
-local Invisible = Instance.new("Frame")
-local Checkbox_7 = Instance.new("ImageButton")
-local Title_8 = Instance.new("TextLabel")
-local Welcome = Instance.new("Frame")
-local Title_9 = Instance.new("TextLabel")
-local Line_2 = Instance.new("ImageLabel")
 local randomizedtext = Instance.new("TextLabel")
 local randomizedimage = Instance.new("ImageLabel")
 local dctag = Instance.new("TextLabel")
 local HatScripts = Instance.new("Frame")
-local Title_10 = Instance.new("TextLabel")
+local Title_2 = Instance.new("TextLabel")
 local Pages = Instance.new("Frame")
 local UIPageLayout = Instance.new("UIPageLayout")
 local Page1 = Instance.new("Frame")
@@ -70,7 +33,7 @@ local PrevButton = Instance.new("TextButton")
 local NextButton = Instance.new("TextButton")
 local Previous = Instance.new("ImageButton")
 local PageLabel = Instance.new("TextLabel")
-local Line_3 = Instance.new("ImageLabel")
+local Line_2 = Instance.new("ImageLabel")
 local HatViewer = Instance.new("Frame")
 local Hat1 = Instance.new("Frame")
 local bg = Instance.new("ImageLabel")
@@ -113,12 +76,49 @@ local bg_10 = Instance.new("ImageLabel")
 local HatImage_10 = Instance.new("ImageLabel")
 local HatName_10 = Instance.new("TextLabel")
 local AudioLogger = Instance.new("Frame")
-local Title_11 = Instance.new("TextLabel")
-local Line_4 = Instance.new("ImageLabel")
+local Title_3 = Instance.new("TextLabel")
+local Line_3 = Instance.new("ImageLabel")
 local AudioLoggerButton = Instance.new("TextButton")
 local ADBG = Instance.new("ImageLabel")
 local myaudios = Instance.new("TextLabel")
 local audioslist = Instance.new("TextLabel")
+local Character = Instance.new("Frame")
+local Title_4 = Instance.new("TextLabel")
+local Line_4 = Instance.new("ImageLabel")
+local Walkspeed = Instance.new("Frame")
+local TextBG = Instance.new("ImageLabel")
+local SpeedBox = Instance.new("TextBox")
+local Set = Instance.new("ImageButton")
+local Jumpheight = Instance.new("Frame")
+local TextBG_2 = Instance.new("ImageLabel")
+local JumpBox = Instance.new("TextBox")
+local Set_2 = Instance.new("ImageButton")
+local NoClip = Instance.new("Frame")
+local Checkbox = Instance.new("ImageButton")
+local Title_5 = Instance.new("TextLabel")
+local InfJump = Instance.new("Frame")
+local Checkbox_2 = Instance.new("ImageButton")
+local Title_6 = Instance.new("TextLabel")
+local PartXray = Instance.new("Frame")
+local Checkbox_3 = Instance.new("ImageButton")
+local Title_7 = Instance.new("TextLabel")
+local Fly = Instance.new("Frame")
+local Checkbox_4 = Instance.new("ImageButton")
+local Title_8 = Instance.new("TextLabel")
+local x = Instance.new("TextLabel")
+local ClickToTP = Instance.new("Frame")
+local Checkbox_5 = Instance.new("ImageButton")
+local Title_9 = Instance.new("TextLabel")
+local CTRL = Instance.new("TextLabel")
+local PlayerXray = Instance.new("Frame")
+local Checkbox_6 = Instance.new("ImageButton")
+local Title_10 = Instance.new("TextLabel")
+local CurrentCoords = Instance.new("TextLabel")
+local Coords2Clipboard = Instance.new("ImageButton")
+local CoordsLabel = Instance.new("TextLabel")
+local Invisible = Instance.new("Frame")
+local Checkbox_7 = Instance.new("ImageButton")
+local Title_11 = Instance.new("TextLabel")
 local Sidebar = Instance.new("Frame")
 local Arrow = Instance.new("ImageButton")
 local Buttons = Instance.new("Frame")
@@ -136,378 +136,6 @@ Menus.BackgroundTransparency = 1.000
 Menus.Position = UDim2.new(0.0971223041, 0, 0.0666666701, 0)
 Menus.Size = UDim2.new(0, 250, 0, 434)
 
-Character.Name = "Character"
-Character.Parent = Menus
-Character.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Character.BackgroundTransparency = 1.000
-Character.Size = UDim2.new(0, 250, 0, 434)
-Character.Visible = false
-Character.ZIndex = 2
-
-Title.Name = "Title"
-Title.Parent = Character
-Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title.BackgroundTransparency = 1.000
-Title.Size = UDim2.new(0, 250, 0, 36)
-Title.ZIndex = 2
-Title.Font = Enum.Font.Arcade
-Title.Text = "CHARACTER"
-Title.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title.TextScaled = true
-Title.TextSize = 14.000
-Title.TextWrapped = true
-
-Line.Name = "Line"
-Line.Parent = Character
-Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Line.BackgroundTransparency = 1.000
-Line.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
-Line.Size = UDim2.new(0, 249, 0, 6)
-Line.Image = "rbxassetid://6531586437"
-
-Walkspeed.Name = "Walkspeed"
-Walkspeed.Parent = Character
-Walkspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Walkspeed.BackgroundTransparency = 1.000
-Walkspeed.Position = UDim2.new(0.00400006771, 0, 0.0967741311, 0)
-Walkspeed.Size = UDim2.new(0, 250, 0, 31)
-
-TextBG.Name = "TextBG"
-TextBG.Parent = Walkspeed
-TextBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextBG.BackgroundTransparency = 1.000
-TextBG.Position = UDim2.new(0.480000049, 0, 0.161290318, 0)
-TextBG.Size = UDim2.new(0, 118, 0, 21)
-TextBG.Image = "rbxassetid://6531499454"
-
-SpeedBox.Name = "SpeedBox"
-SpeedBox.Parent = Walkspeed
-SpeedBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpeedBox.BackgroundTransparency = 1.000
-SpeedBox.Position = UDim2.new(0.47999993, 0, 0.161290318, 0)
-SpeedBox.Size = UDim2.new(0, 118, 0, 21)
-SpeedBox.Font = Enum.Font.Arcade
-SpeedBox.PlaceholderColor3 = Color3.fromRGB(209, 209, 209)
-SpeedBox.PlaceholderText = "Walkspeed"
-SpeedBox.Text = ""
-SpeedBox.TextColor3 = Color3.fromRGB(139, 139, 139)
-SpeedBox.TextScaled = true
-SpeedBox.TextSize = 14.000
-SpeedBox.TextWrapped = true
-
-Set.Name = "Set"
-Set.Parent = Walkspeed
-Set.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Set.BackgroundTransparency = 1.000
-Set.Position = UDim2.new(0.100000001, 0, 0.161290318, 0)
-Set.Size = UDim2.new(0, 70, 0, 21)
-Set.Image = "rbxassetid://6531649707"
-
-Jumpheight.Name = "Jumpheight"
-Jumpheight.Parent = Character
-Jumpheight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Jumpheight.BackgroundTransparency = 1.000
-Jumpheight.Position = UDim2.new(0.00400006771, 0, 0.15668197, 0)
-Jumpheight.Size = UDim2.new(0, 250, 0, 31)
-
-TextBG_2.Name = "TextBG"
-TextBG_2.Parent = Jumpheight
-TextBG_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextBG_2.BackgroundTransparency = 1.000
-TextBG_2.Position = UDim2.new(0.480000049, 0, 0.161290318, 0)
-TextBG_2.Size = UDim2.new(0, 118, 0, 21)
-TextBG_2.Image = "rbxassetid://6531499454"
-
-JumpBox.Name = "JumpBox"
-JumpBox.Parent = Jumpheight
-JumpBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-JumpBox.BackgroundTransparency = 1.000
-JumpBox.Position = UDim2.new(0.47999993, 0, 0.161290318, 0)
-JumpBox.Size = UDim2.new(0, 118, 0, 21)
-JumpBox.Font = Enum.Font.Arcade
-JumpBox.PlaceholderColor3 = Color3.fromRGB(209, 209, 209)
-JumpBox.PlaceholderText = "Jump Height"
-JumpBox.Text = ""
-JumpBox.TextColor3 = Color3.fromRGB(139, 139, 139)
-JumpBox.TextScaled = true
-JumpBox.TextSize = 14.000
-JumpBox.TextWrapped = true
-
-Set_2.Name = "Set"
-Set_2.Parent = Jumpheight
-Set_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Set_2.BackgroundTransparency = 1.000
-Set_2.Position = UDim2.new(0.100000001, 0, 0.161290318, 0)
-Set_2.Size = UDim2.new(0, 70, 0, 21)
-Set_2.Image = "rbxassetid://6531649707"
-
-NoClip.Name = "NoClip"
-NoClip.Parent = Character
-NoClip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoClip.BackgroundTransparency = 0.900
-NoClip.Position = UDim2.new(0.00400018319, 0, 0.364620775, 0)
-NoClip.Size = UDim2.new(0, 250, 0, 31)
-
-Checkbox.Name = "Checkbox"
-Checkbox.Parent = NoClip
-Checkbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Checkbox.BackgroundTransparency = 1.000
-Checkbox.Position = UDim2.new(0.787999988, 0, 0.161290318, 0)
-Checkbox.Size = UDim2.new(0, 26, 0, 26)
-Checkbox.Image = "rbxassetid://6531499312"
-
-Title_2.Name = "Title"
-Title_2.Parent = NoClip
-Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_2.BackgroundTransparency = 1.000
-Title_2.Position = UDim2.new(0.0439999998, 0, 0, 0)
-Title_2.Size = UDim2.new(0, 184, 0, 31)
-Title_2.ZIndex = 2
-Title_2.Font = Enum.Font.Arcade
-Title_2.Text = "No Clip:"
-Title_2.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_2.TextScaled = true
-Title_2.TextSize = 14.000
-Title_2.TextWrapped = true
-
-InfJump.Name = "InfJump"
-InfJump.Parent = Character
-InfJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-InfJump.BackgroundTransparency = 0.900
-InfJump.Position = UDim2.new(0.00400018319, 0, 0.290322512, 0)
-InfJump.Size = UDim2.new(0, 250, 0, 31)
-
-Checkbox_2.Name = "Checkbox"
-Checkbox_2.Parent = InfJump
-Checkbox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Checkbox_2.BackgroundTransparency = 1.000
-Checkbox_2.Position = UDim2.new(0.787999988, 0, 0.161290318, 0)
-Checkbox_2.Size = UDim2.new(0, 26, 0, 26)
-Checkbox_2.Image = "rbxassetid://6531499312"
-
-Title_3.Name = "Title"
-Title_3.Parent = InfJump
-Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_3.BackgroundTransparency = 1.000
-Title_3.Position = UDim2.new(0.0439999998, 0, 0, 0)
-Title_3.Size = UDim2.new(0, 184, 0, 31)
-Title_3.ZIndex = 2
-Title_3.Font = Enum.Font.Arcade
-Title_3.Text = "Inf Jump:"
-Title_3.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_3.TextScaled = true
-Title_3.TextSize = 14.000
-Title_3.TextWrapped = true
-
-PartXray.Name = "PartXray"
-PartXray.Parent = Character
-PartXray.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PartXray.BackgroundTransparency = 0.900
-PartXray.Position = UDim2.new(0.00400018319, 0, 0.438919038, 0)
-PartXray.Size = UDim2.new(0, 250, 0, 31)
-
-Checkbox_3.Name = "Checkbox"
-Checkbox_3.Parent = PartXray
-Checkbox_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Checkbox_3.BackgroundTransparency = 1.000
-Checkbox_3.Position = UDim2.new(0.787999988, 0, 0.161290318, 0)
-Checkbox_3.Size = UDim2.new(0, 26, 0, 26)
-Checkbox_3.Image = "rbxassetid://6531499312"
-
-Title_4.Name = "Title"
-Title_4.Parent = PartXray
-Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_4.BackgroundTransparency = 1.000
-Title_4.Position = UDim2.new(0.0439999998, 0, 0, 0)
-Title_4.Size = UDim2.new(0, 184, 0, 31)
-Title_4.ZIndex = 2
-Title_4.Font = Enum.Font.Arcade
-Title_4.Text = "Part Xray:"
-Title_4.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_4.TextScaled = true
-Title_4.TextSize = 14.000
-Title_4.TextWrapped = true
-
-Fly.Name = "Fly"
-Fly.Parent = Character
-Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Fly.BackgroundTransparency = 0.900
-Fly.Position = UDim2.new(0.00400018319, 0, 0.51321733, 0)
-Fly.Size = UDim2.new(0, 250, 0, 31)
-
-Checkbox_4.Name = "Checkbox"
-Checkbox_4.Parent = Fly
-Checkbox_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Checkbox_4.BackgroundTransparency = 1.000
-Checkbox_4.Position = UDim2.new(0.787999988, 0, 0.161290318, 0)
-Checkbox_4.Size = UDim2.new(0, 26, 0, 26)
-Checkbox_4.Image = "rbxassetid://6531499312"
-
-Title_5.Name = "Title"
-Title_5.Parent = Fly
-Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_5.BackgroundTransparency = 1.000
-Title_5.Position = UDim2.new(0.0439999998, 0, 0, 0)
-Title_5.Size = UDim2.new(0, 155, 0, 31)
-Title_5.ZIndex = 2
-Title_5.Font = Enum.Font.Arcade
-Title_5.Text = "Fly:"
-Title_5.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_5.TextScaled = true
-Title_5.TextSize = 14.000
-Title_5.TextWrapped = true
-
-x.Name = "(x)"
-x.Parent = Fly
-x.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-x.BackgroundTransparency = 1.000
-x.Position = UDim2.new(0.663999975, 0, 0, 0)
-x.Size = UDim2.new(0, 30, 0, 31)
-x.ZIndex = 2
-x.Font = Enum.Font.Arcade
-x.Text = "(X)"
-x.TextColor3 = Color3.fromRGB(139, 139, 139)
-x.TextScaled = true
-x.TextSize = 14.000
-x.TextWrapped = true
-
-ClickToTP.Name = "ClickToTP"
-ClickToTP.Parent = Character
-ClickToTP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ClickToTP.BackgroundTransparency = 0.900
-ClickToTP.Position = UDim2.new(0.00400018319, 0, 0.584645927, 0)
-ClickToTP.Size = UDim2.new(0, 250, 0, 32)
-
-Checkbox_5.Name = "Checkbox"
-Checkbox_5.Parent = ClickToTP
-Checkbox_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Checkbox_5.BackgroundTransparency = 1.000
-Checkbox_5.Position = UDim2.new(0.787999988, 0, 0.16795595, 0)
-Checkbox_5.Size = UDim2.new(0, 26, 0, 26)
-Checkbox_5.Image = "rbxassetid://6531499312"
-
-Title_6.Name = "Title"
-Title_6.Parent = ClickToTP
-Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_6.BackgroundTransparency = 1.000
-Title_6.Position = UDim2.new(0.0439999998, 0, 0, 0)
-Title_6.Size = UDim2.new(0, 141, 0, 32)
-Title_6.ZIndex = 2
-Title_6.Font = Enum.Font.Arcade
-Title_6.Text = "Click To TP:"
-Title_6.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_6.TextScaled = true
-Title_6.TextSize = 14.000
-Title_6.TextWrapped = true
-
-CTRL.Name = "(CTRL)"
-CTRL.Parent = ClickToTP
-CTRL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CTRL.BackgroundTransparency = 1.000
-CTRL.Position = UDim2.new(0.60799998, 0, 0, 0)
-CTRL.Size = UDim2.new(0, 43, 0, 32)
-CTRL.ZIndex = 2
-CTRL.Font = Enum.Font.Arcade
-CTRL.Text = "(CTRL)"
-CTRL.TextColor3 = Color3.fromRGB(139, 139, 139)
-CTRL.TextScaled = true
-CTRL.TextSize = 14.000
-CTRL.TextWrapped = true
-
-PlayerXray.Name = "PlayerXray"
-PlayerXray.Parent = Character
-PlayerXray.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PlayerXray.BackgroundTransparency = 0.900
-PlayerXray.Position = UDim2.new(0.00400018319, 0, 0.218286425, 0)
-PlayerXray.Size = UDim2.new(0, 250, 0, 31)
-
-Checkbox_6.Name = "Checkbox"
-Checkbox_6.Parent = PlayerXray
-Checkbox_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Checkbox_6.BackgroundTransparency = 1.000
-Checkbox_6.Position = UDim2.new(0.787999988, 0, 0.165347189, 0)
-Checkbox_6.Size = UDim2.new(0, 26, 0, 25)
-Checkbox_6.Image = "rbxassetid://6531499312"
-
-Title_7.Name = "Title"
-Title_7.Parent = PlayerXray
-Title_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_7.BackgroundTransparency = 1.000
-Title_7.Position = UDim2.new(0.0439999998, 0, 0, 0)
-Title_7.Size = UDim2.new(0, 184, 0, 31)
-Title_7.ZIndex = 2
-Title_7.Font = Enum.Font.Arcade
-Title_7.Text = "Player Xray:"
-Title_7.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_7.TextScaled = true
-Title_7.TextSize = 14.000
-Title_7.TextWrapped = true
-
-CurrentCoords.Name = "CurrentCoords"
-CurrentCoords.Parent = Character
-CurrentCoords.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CurrentCoords.BackgroundTransparency = 1.000
-CurrentCoords.Position = UDim2.new(0.315700382, 0, 0.942396402, 0)
-CurrentCoords.Size = UDim2.new(0, 149, 0, 21)
-CurrentCoords.ZIndex = 2
-CurrentCoords.Font = Enum.Font.Arcade
-CurrentCoords.Text = "0,0,0"
-CurrentCoords.TextColor3 = Color3.fromRGB(139, 139, 139)
-CurrentCoords.TextScaled = true
-CurrentCoords.TextSize = 14.000
-CurrentCoords.TextWrapped = true
-
-Coords2Clipboard.Name = "Coords2Clipboard"
-Coords2Clipboard.Parent = CurrentCoords
-Coords2Clipboard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Coords2Clipboard.BackgroundTransparency = 1.000
-Coords2Clipboard.Position = UDim2.new(1.0057795, 0, 0, 0)
-Coords2Clipboard.Size = UDim2.new(0, 21, 0, 21)
-Coords2Clipboard.Image = "rbxassetid://6551631587"
-
-CoordsLabel.Name = "CoordsLabel"
-CoordsLabel.Parent = Character
-CoordsLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CoordsLabel.BackgroundTransparency = 1.000
-CoordsLabel.Position = UDim2.new(0.0407257676, 0, 0.942396402, 0)
-CoordsLabel.Size = UDim2.new(0, 67, 0, 21)
-CoordsLabel.ZIndex = 2
-CoordsLabel.Font = Enum.Font.Arcade
-CoordsLabel.Text = "Coords:"
-CoordsLabel.TextColor3 = Color3.fromRGB(139, 139, 139)
-CoordsLabel.TextScaled = true
-CoordsLabel.TextSize = 14.000
-CoordsLabel.TextWrapped = true
-
-Invisible.Name = "Invisible"
-Invisible.Parent = Character
-Invisible.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Invisible.BackgroundTransparency = 0.900
-Invisible.Position = UDim2.new(0.00400018319, 0, 0.658378661, 0)
-Invisible.Size = UDim2.new(0, 250, 0, 32)
-
-Checkbox_7.Name = "Checkbox"
-Checkbox_7.Parent = Invisible
-Checkbox_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Checkbox_7.BackgroundTransparency = 1.000
-Checkbox_7.Position = UDim2.new(0.787999988, 0, 0.16795595, 0)
-Checkbox_7.Size = UDim2.new(0, 26, 0, 26)
-Checkbox_7.Image = "rbxassetid://6531499312"
-
-Title_8.Name = "Title"
-Title_8.Parent = Invisible
-Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_8.BackgroundTransparency = 1.000
-Title_8.Position = UDim2.new(0.0439999998, 0, 0, 0)
-Title_8.Size = UDim2.new(0, 184, 0, 32)
-Title_8.ZIndex = 2
-Title_8.Font = Enum.Font.Arcade
-Title_8.Text = "Invisible:"
-Title_8.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_8.TextScaled = true
-Title_8.TextSize = 14.000
-Title_8.TextWrapped = true
-
 Welcome.Name = "Welcome"
 Welcome.Parent = Menus
 Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -515,26 +143,26 @@ Welcome.BackgroundTransparency = 1.000
 Welcome.Size = UDim2.new(0, 250, 0, 434)
 Welcome.ZIndex = 2
 
-Title_9.Name = "Title"
-Title_9.Parent = Welcome
-Title_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_9.BackgroundTransparency = 1.000
-Title_9.Size = UDim2.new(0, 250, 0, 36)
-Title_9.ZIndex = 2
-Title_9.Font = Enum.Font.Arcade
-Title_9.Text = "Welcome!"
-Title_9.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_9.TextScaled = true
-Title_9.TextSize = 14.000
-Title_9.TextWrapped = true
+Title.Name = "Title"
+Title.Parent = Welcome
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Size = UDim2.new(0, 250, 0, 36)
+Title.ZIndex = 2
+Title.Font = Enum.Font.Arcade
+Title.Text = "Welcome!"
+Title.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
 
-Line_2.Name = "Line"
-Line_2.Parent = Welcome
-Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Line_2.BackgroundTransparency = 1.000
-Line_2.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
-Line_2.Size = UDim2.new(0, 249, 0, 6)
-Line_2.Image = "rbxassetid://6531586437"
+Line.Name = "Line"
+Line.Parent = Welcome
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BackgroundTransparency = 1.000
+Line.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
+Line.Size = UDim2.new(0, 249, 0, 6)
+Line.Image = "rbxassetid://6531586437"
 
 randomizedtext.Name = "randomizedtext"
 randomizedtext.Parent = Welcome
@@ -562,8 +190,8 @@ dctag.Name = "dctag"
 dctag.Parent = Welcome
 dctag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 dctag.BackgroundTransparency = 1.000
-dctag.Position = UDim2.new(0.547999978, 0, 0.942396343, 0)
-dctag.Size = UDim2.new(0, 113, 0, 25)
+dctag.Position = UDim2.new(0.507999957, 0, 0.935483932, 0)
+dctag.Size = UDim2.new(0, 113, 0, 22)
 dctag.ZIndex = 2
 dctag.Font = Enum.Font.Arcade
 dctag.Text = "mikel 0763"
@@ -580,18 +208,18 @@ HatScripts.Size = UDim2.new(0, 250, 0, 434)
 HatScripts.Visible = false
 HatScripts.ZIndex = 2
 
-Title_10.Name = "Title"
-Title_10.Parent = HatScripts
-Title_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_10.BackgroundTransparency = 1.000
-Title_10.Size = UDim2.new(0, 250, 0, 36)
-Title_10.ZIndex = 2
-Title_10.Font = Enum.Font.Arcade
-Title_10.Text = "HAT SCRIPTS"
-Title_10.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_10.TextScaled = true
-Title_10.TextSize = 14.000
-Title_10.TextWrapped = true
+Title_2.Name = "Title"
+Title_2.Parent = HatScripts
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Size = UDim2.new(0, 250, 0, 36)
+Title_2.ZIndex = 2
+Title_2.Font = Enum.Font.Arcade
+Title_2.Text = "HAT SCRIPTS"
+Title_2.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
 
 Pages.Name = "Pages"
 Pages.Parent = HatScripts
@@ -784,13 +412,13 @@ PageLabel.TextScaled = true
 PageLabel.TextSize = 14.000
 PageLabel.TextWrapped = true
 
-Line_3.Name = "Line"
-Line_3.Parent = HatScripts
-Line_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Line_3.BackgroundTransparency = 1.000
-Line_3.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
-Line_3.Size = UDim2.new(0, 249, 0, 6)
-Line_3.Image = "rbxassetid://6531586437"
+Line_2.Name = "Line"
+Line_2.Parent = HatScripts
+Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_2.BackgroundTransparency = 1.000
+Line_2.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
+Line_2.Size = UDim2.new(0, 249, 0, 6)
+Line_2.Image = "rbxassetid://6531586437"
 
 HatViewer.Name = "HatViewer"
 HatViewer.Parent = HatScripts
@@ -1197,26 +825,26 @@ AudioLogger.Size = UDim2.new(0, 250, 0, 434)
 AudioLogger.Visible = false
 AudioLogger.ZIndex = 2
 
-Title_11.Name = "Title"
-Title_11.Parent = AudioLogger
-Title_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_11.BackgroundTransparency = 1.000
-Title_11.Size = UDim2.new(0, 250, 0, 36)
-Title_11.ZIndex = 2
-Title_11.Font = Enum.Font.Arcade
-Title_11.Text = "AUDIO LOGGER"
-Title_11.TextColor3 = Color3.fromRGB(139, 139, 139)
-Title_11.TextScaled = true
-Title_11.TextSize = 14.000
-Title_11.TextWrapped = true
+Title_3.Name = "Title"
+Title_3.Parent = AudioLogger
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.Size = UDim2.new(0, 250, 0, 36)
+Title_3.ZIndex = 2
+Title_3.Font = Enum.Font.Arcade
+Title_3.Text = "AUDIO LOGGER"
+Title_3.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
 
-Line_4.Name = "Line"
-Line_4.Parent = AudioLogger
-Line_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Line_4.BackgroundTransparency = 1.000
-Line_4.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
-Line_4.Size = UDim2.new(0, 249, 0, 6)
-Line_4.Image = "rbxassetid://6531586437"
+Line_3.Name = "Line"
+Line_3.Parent = AudioLogger
+Line_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_3.BackgroundTransparency = 1.000
+Line_3.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
+Line_3.Size = UDim2.new(0, 249, 0, 6)
+Line_3.Image = "rbxassetid://6531586437"
 
 AudioLoggerButton.Name = "AudioLoggerButton"
 AudioLoggerButton.Parent = AudioLogger
@@ -1268,8 +896,380 @@ audioslist.TextScaled = true
 audioslist.TextSize = 14.000
 audioslist.TextWrapped = true
 
+Character.Name = "Character"
+Character.Parent = Menus
+Character.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Character.BackgroundTransparency = 1.000
+Character.Size = UDim2.new(0, 250, 0, 434)
+Character.Visible = false
+Character.ZIndex = 2
+
+Title_4.Name = "Title"
+Title_4.Parent = Character
+Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.BackgroundTransparency = 1.000
+Title_4.Size = UDim2.new(0, 250, 0, 36)
+Title_4.ZIndex = 2
+Title_4.Font = Enum.Font.Arcade
+Title_4.Text = "CHARACTER"
+Title_4.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_4.TextScaled = true
+Title_4.TextSize = 14.000
+Title_4.TextWrapped = true
+
+Line_4.Name = "Line"
+Line_4.Parent = Character
+Line_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_4.BackgroundTransparency = 1.000
+Line_4.Position = UDim2.new(0.00472570816, 0, 0.0829493105, 0)
+Line_4.Size = UDim2.new(0, 249, 0, 6)
+Line_4.Image = "rbxassetid://6531586437"
+
+Walkspeed.Name = "Walkspeed"
+Walkspeed.Parent = Character
+Walkspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Walkspeed.BackgroundTransparency = 1.000
+Walkspeed.Position = UDim2.new(0.00400006771, 0, 0.0967741311, 0)
+Walkspeed.Size = UDim2.new(0, 250, 0, 31)
+
+TextBG.Name = "TextBG"
+TextBG.Parent = Walkspeed
+TextBG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBG.BackgroundTransparency = 1.000
+TextBG.Position = UDim2.new(0.480000049, 0, 0.161290318, 0)
+TextBG.Size = UDim2.new(0, 118, 0, 21)
+TextBG.Image = "rbxassetid://6531499454"
+
+SpeedBox.Name = "SpeedBox"
+SpeedBox.Parent = Walkspeed
+SpeedBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpeedBox.BackgroundTransparency = 1.000
+SpeedBox.Position = UDim2.new(0.47999993, 0, 0.161290318, 0)
+SpeedBox.Size = UDim2.new(0, 118, 0, 21)
+SpeedBox.Font = Enum.Font.Arcade
+SpeedBox.PlaceholderColor3 = Color3.fromRGB(209, 209, 209)
+SpeedBox.PlaceholderText = "Walkspeed"
+SpeedBox.Text = ""
+SpeedBox.TextColor3 = Color3.fromRGB(139, 139, 139)
+SpeedBox.TextScaled = true
+SpeedBox.TextSize = 14.000
+SpeedBox.TextWrapped = true
+
+Set.Name = "Set"
+Set.Parent = Walkspeed
+Set.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Set.BackgroundTransparency = 1.000
+Set.Position = UDim2.new(0.100000001, 0, 0.161290318, 0)
+Set.Size = UDim2.new(0, 70, 0, 21)
+Set.Image = "rbxassetid://6531649707"
+
+Jumpheight.Name = "Jumpheight"
+Jumpheight.Parent = Character
+Jumpheight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jumpheight.BackgroundTransparency = 1.000
+Jumpheight.Position = UDim2.new(0.00400006771, 0, 0.15668197, 0)
+Jumpheight.Size = UDim2.new(0, 250, 0, 31)
+
+TextBG_2.Name = "TextBG"
+TextBG_2.Parent = Jumpheight
+TextBG_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBG_2.BackgroundTransparency = 1.000
+TextBG_2.Position = UDim2.new(0.480000049, 0, 0.161290318, 0)
+TextBG_2.Size = UDim2.new(0, 118, 0, 21)
+TextBG_2.Image = "rbxassetid://6531499454"
+
+JumpBox.Name = "JumpBox"
+JumpBox.Parent = Jumpheight
+JumpBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpBox.BackgroundTransparency = 1.000
+JumpBox.Position = UDim2.new(0.47999993, 0, 0.161290318, 0)
+JumpBox.Size = UDim2.new(0, 118, 0, 21)
+JumpBox.Font = Enum.Font.Arcade
+JumpBox.PlaceholderColor3 = Color3.fromRGB(209, 209, 209)
+JumpBox.PlaceholderText = "Jump Height"
+JumpBox.Text = ""
+JumpBox.TextColor3 = Color3.fromRGB(139, 139, 139)
+JumpBox.TextScaled = true
+JumpBox.TextSize = 14.000
+JumpBox.TextWrapped = true
+
+Set_2.Name = "Set"
+Set_2.Parent = Jumpheight
+Set_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Set_2.BackgroundTransparency = 1.000
+Set_2.Position = UDim2.new(0.100000001, 0, 0.161290318, 0)
+Set_2.Size = UDim2.new(0, 70, 0, 21)
+Set_2.Image = "rbxassetid://6531649707"
+
+NoClip.Name = "NoClip"
+NoClip.Parent = Character
+NoClip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoClip.BackgroundTransparency = 0.900
+NoClip.Position = UDim2.new(0.00400018319, 0, 0.364620775, 0)
+NoClip.Size = UDim2.new(0, 250, 0, 31)
+
+Checkbox.Name = "Checkbox"
+Checkbox.Parent = NoClip
+Checkbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checkbox.BackgroundTransparency = 1.000
+Checkbox.Position = UDim2.new(0.787999988, 0, 0.161290318, 0)
+Checkbox.Size = UDim2.new(0, 26, 0, 26)
+Checkbox.Image = "rbxassetid://6531499312"
+
+Title_5.Name = "Title"
+Title_5.Parent = NoClip
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.Position = UDim2.new(0.0439999998, 0, 0, 0)
+Title_5.Size = UDim2.new(0, 184, 0, 31)
+Title_5.ZIndex = 2
+Title_5.Font = Enum.Font.Arcade
+Title_5.Text = "No Clip:"
+Title_5.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_5.TextScaled = true
+Title_5.TextSize = 14.000
+Title_5.TextWrapped = true
+
+InfJump.Name = "InfJump"
+InfJump.Parent = Character
+InfJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfJump.BackgroundTransparency = 0.900
+InfJump.Position = UDim2.new(0.00400018319, 0, 0.290322512, 0)
+InfJump.Size = UDim2.new(0, 250, 0, 31)
+
+Checkbox_2.Name = "Checkbox"
+Checkbox_2.Parent = InfJump
+Checkbox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checkbox_2.BackgroundTransparency = 1.000
+Checkbox_2.Position = UDim2.new(0.787999988, 0, 0.161290318, 0)
+Checkbox_2.Size = UDim2.new(0, 26, 0, 26)
+Checkbox_2.Image = "rbxassetid://6531499312"
+
+Title_6.Name = "Title"
+Title_6.Parent = InfJump
+Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.BackgroundTransparency = 1.000
+Title_6.Position = UDim2.new(0.0439999998, 0, 0, 0)
+Title_6.Size = UDim2.new(0, 184, 0, 31)
+Title_6.ZIndex = 2
+Title_6.Font = Enum.Font.Arcade
+Title_6.Text = "Inf Jump:"
+Title_6.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_6.TextScaled = true
+Title_6.TextSize = 14.000
+Title_6.TextWrapped = true
+
+PartXray.Name = "PartXray"
+PartXray.Parent = Character
+PartXray.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PartXray.BackgroundTransparency = 0.900
+PartXray.Position = UDim2.new(0.00400018319, 0, 0.438919038, 0)
+PartXray.Size = UDim2.new(0, 250, 0, 31)
+
+Checkbox_3.Name = "Checkbox"
+Checkbox_3.Parent = PartXray
+Checkbox_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checkbox_3.BackgroundTransparency = 1.000
+Checkbox_3.Position = UDim2.new(0.787999988, 0, 0.161290318, 0)
+Checkbox_3.Size = UDim2.new(0, 26, 0, 26)
+Checkbox_3.Image = "rbxassetid://6531499312"
+
+Title_7.Name = "Title"
+Title_7.Parent = PartXray
+Title_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.BackgroundTransparency = 1.000
+Title_7.Position = UDim2.new(0.0439999998, 0, 0, 0)
+Title_7.Size = UDim2.new(0, 184, 0, 31)
+Title_7.ZIndex = 2
+Title_7.Font = Enum.Font.Arcade
+Title_7.Text = "Part Xray:"
+Title_7.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_7.TextScaled = true
+Title_7.TextSize = 14.000
+Title_7.TextWrapped = true
+
+Fly.Name = "Fly"
+Fly.Parent = Character
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.BackgroundTransparency = 0.900
+Fly.Position = UDim2.new(0.00400018319, 0, 0.51321733, 0)
+Fly.Size = UDim2.new(0, 250, 0, 31)
+
+Checkbox_4.Name = "Checkbox"
+Checkbox_4.Parent = Fly
+Checkbox_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checkbox_4.BackgroundTransparency = 1.000
+Checkbox_4.Position = UDim2.new(0.787999988, 0, 0.161290318, 0)
+Checkbox_4.Size = UDim2.new(0, 26, 0, 26)
+Checkbox_4.Image = "rbxassetid://6531499312"
+
+Title_8.Name = "Title"
+Title_8.Parent = Fly
+Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.BackgroundTransparency = 1.000
+Title_8.Position = UDim2.new(0.0439999998, 0, 0, 0)
+Title_8.Size = UDim2.new(0, 155, 0, 31)
+Title_8.ZIndex = 2
+Title_8.Font = Enum.Font.Arcade
+Title_8.Text = "Fly:"
+Title_8.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_8.TextScaled = true
+Title_8.TextSize = 14.000
+Title_8.TextWrapped = true
+
+x.Name = "(x)"
+x.Parent = Fly
+x.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+x.BackgroundTransparency = 1.000
+x.Position = UDim2.new(0.663999975, 0, 0, 0)
+x.Size = UDim2.new(0, 30, 0, 31)
+x.ZIndex = 2
+x.Font = Enum.Font.Arcade
+x.Text = "(X)"
+x.TextColor3 = Color3.fromRGB(139, 139, 139)
+x.TextScaled = true
+x.TextSize = 14.000
+x.TextWrapped = true
+
+ClickToTP.Name = "ClickToTP"
+ClickToTP.Parent = Character
+ClickToTP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ClickToTP.BackgroundTransparency = 0.900
+ClickToTP.Position = UDim2.new(0.00400018319, 0, 0.584645927, 0)
+ClickToTP.Size = UDim2.new(0, 250, 0, 32)
+
+Checkbox_5.Name = "Checkbox"
+Checkbox_5.Parent = ClickToTP
+Checkbox_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checkbox_5.BackgroundTransparency = 1.000
+Checkbox_5.Position = UDim2.new(0.787999988, 0, 0.16795595, 0)
+Checkbox_5.Size = UDim2.new(0, 26, 0, 26)
+Checkbox_5.Image = "rbxassetid://6531499312"
+
+Title_9.Name = "Title"
+Title_9.Parent = ClickToTP
+Title_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.BackgroundTransparency = 1.000
+Title_9.Position = UDim2.new(0.0439999998, 0, 0, 0)
+Title_9.Size = UDim2.new(0, 141, 0, 32)
+Title_9.ZIndex = 2
+Title_9.Font = Enum.Font.Arcade
+Title_9.Text = "Click To TP:"
+Title_9.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_9.TextScaled = true
+Title_9.TextSize = 14.000
+Title_9.TextWrapped = true
+
+CTRL.Name = "(CTRL)"
+CTRL.Parent = ClickToTP
+CTRL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CTRL.BackgroundTransparency = 1.000
+CTRL.Position = UDim2.new(0.60799998, 0, 0, 0)
+CTRL.Size = UDim2.new(0, 43, 0, 32)
+CTRL.ZIndex = 2
+CTRL.Font = Enum.Font.Arcade
+CTRL.Text = "(CTRL)"
+CTRL.TextColor3 = Color3.fromRGB(139, 139, 139)
+CTRL.TextScaled = true
+CTRL.TextSize = 14.000
+CTRL.TextWrapped = true
+
+PlayerXray.Name = "PlayerXray"
+PlayerXray.Parent = Character
+PlayerXray.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerXray.BackgroundTransparency = 0.900
+PlayerXray.Position = UDim2.new(0.00400018319, 0, 0.218286425, 0)
+PlayerXray.Size = UDim2.new(0, 250, 0, 31)
+
+Checkbox_6.Name = "Checkbox"
+Checkbox_6.Parent = PlayerXray
+Checkbox_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checkbox_6.BackgroundTransparency = 1.000
+Checkbox_6.Position = UDim2.new(0.787999988, 0, 0.165347189, 0)
+Checkbox_6.Size = UDim2.new(0, 26, 0, 25)
+Checkbox_6.Image = "rbxassetid://6531499312"
+
+Title_10.Name = "Title"
+Title_10.Parent = PlayerXray
+Title_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_10.BackgroundTransparency = 1.000
+Title_10.Position = UDim2.new(0.0439999998, 0, 0, 0)
+Title_10.Size = UDim2.new(0, 184, 0, 31)
+Title_10.ZIndex = 2
+Title_10.Font = Enum.Font.Arcade
+Title_10.Text = "Player Xray:"
+Title_10.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_10.TextScaled = true
+Title_10.TextSize = 14.000
+Title_10.TextWrapped = true
+
+CurrentCoords.Name = "CurrentCoords"
+CurrentCoords.Parent = Character
+CurrentCoords.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CurrentCoords.BackgroundTransparency = 1.000
+CurrentCoords.Position = UDim2.new(0.315700382, 0, 0.942396402, 0)
+CurrentCoords.Size = UDim2.new(0, 149, 0, 21)
+CurrentCoords.ZIndex = 2
+CurrentCoords.Font = Enum.Font.Arcade
+CurrentCoords.Text = "0,0,0"
+CurrentCoords.TextColor3 = Color3.fromRGB(139, 139, 139)
+CurrentCoords.TextScaled = true
+CurrentCoords.TextSize = 14.000
+CurrentCoords.TextWrapped = true
+
+Coords2Clipboard.Name = "Coords2Clipboard"
+Coords2Clipboard.Parent = CurrentCoords
+Coords2Clipboard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Coords2Clipboard.BackgroundTransparency = 1.000
+Coords2Clipboard.Position = UDim2.new(1.0057795, 0, 0, 0)
+Coords2Clipboard.Size = UDim2.new(0, 21, 0, 21)
+Coords2Clipboard.Image = "rbxassetid://6551631587"
+
+CoordsLabel.Name = "CoordsLabel"
+CoordsLabel.Parent = Character
+CoordsLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CoordsLabel.BackgroundTransparency = 1.000
+CoordsLabel.Position = UDim2.new(0.0407257676, 0, 0.942396402, 0)
+CoordsLabel.Size = UDim2.new(0, 67, 0, 21)
+CoordsLabel.ZIndex = 2
+CoordsLabel.Font = Enum.Font.Arcade
+CoordsLabel.Text = "Coords:"
+CoordsLabel.TextColor3 = Color3.fromRGB(139, 139, 139)
+CoordsLabel.TextScaled = true
+CoordsLabel.TextSize = 14.000
+CoordsLabel.TextWrapped = true
+
+Invisible.Name = "Invisible"
+Invisible.Parent = Character
+Invisible.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Invisible.BackgroundTransparency = 0.900
+Invisible.Position = UDim2.new(0.00400018319, 0, 0.658378661, 0)
+Invisible.Size = UDim2.new(0, 250, 0, 32)
+
+Checkbox_7.Name = "Checkbox"
+Checkbox_7.Parent = Invisible
+Checkbox_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checkbox_7.BackgroundTransparency = 1.000
+Checkbox_7.Position = UDim2.new(0.787999988, 0, 0.16795595, 0)
+Checkbox_7.Size = UDim2.new(0, 26, 0, 26)
+Checkbox_7.Image = "rbxassetid://6531499312"
+
+Title_11.Name = "Title"
+Title_11.Parent = Invisible
+Title_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_11.BackgroundTransparency = 1.000
+Title_11.Position = UDim2.new(0.0439999998, 0, 0, 0)
+Title_11.Size = UDim2.new(0, 184, 0, 32)
+Title_11.ZIndex = 2
+Title_11.Font = Enum.Font.Arcade
+Title_11.Text = "Invisible:"
+Title_11.TextColor3 = Color3.fromRGB(139, 139, 139)
+Title_11.TextScaled = true
+Title_11.TextSize = 14.000
+Title_11.TextWrapped = true
+
 Sidebar.Name = "Sidebar"
-Sidebar.Parent = game.Players.LocalPlayer.PlayerGui.WindowsXP.MainFrame
+Sidebar.Parent = game.Player.LocalPlayer.PlayerGui.WindowsXP.MainFrame
 Sidebar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Sidebar.BackgroundTransparency = 1.000
 Sidebar.ClipsDescendants = true
@@ -1328,7 +1328,294 @@ Audio.Image = "rbxassetid://6551735554"
 
 -- Scripts:
 
-local function HNDPXUW_fake_script() -- Set.SetValue 
+local function XXLFY_fake_script() -- randomizedtext.randomized; 
+	local script = Instance.new('LocalScript', randomizedtext)
+
+	local Sentences = {"amogus", "windmill of friendship 卐", "dougie help im bouta bust", "ayo dougie, im from the sah-ooth", "alright Dougie, your time is up", "henry jr and henry cr just chillin on the stairs until roberta kicks jr:(","ahahahaahah pointy plane go BRRRRRRRRRRRRRRR", "420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420", "😳 bro?", "cnn fakes their news cause gay", "we had to call the popo to fix a pipe in the pines house today LOL", "buddy is currently on my epik blue gaming chair trying to eat my mcdonalds sandwhich","biden licks little boys","ranch dip","this text is randomly generated lmao","biden is a garbage president","diet coke tastes very good L","cheese", "alpharad makes good content", "follow DietCokeTastesGood on roblox or you're gay", "only biden supporters like pepsi", "f", "windows pog?!??!?", "ivan is cool", "#superstraight", "heterosexual is the best kind of sexual", "alt+f4 pls", "i just ate a Chobani flip S'more yogurt and it was  good", "bottom text", "top text", "69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69", "Ivan is eating yummy chips rn and they r very pog", "drippy drippy goku XDXDXD"}
+	while true do 
+		script.Parent.Text = Sentences[math.random(1,#Sentences)]
+		wait(6.9) 
+	end
+end
+coroutine.wrap(XXLFY_fake_script)()
+local function IJVV_fake_script() -- randomizedimage.randomized; 
+	local script = Instance.new('LocalScript', randomizedimage)
+
+	local Images = {"rbxassetid://4759703774", "rbxassetid://1505144534", "rbxassetid://2663223907", "rbxassetid://5666154615", "rbxassetid://1639707845", "rbxassetid://1315317859", "rbxassetid://6464730351", "rbxassetid://6494652399", "rbxassetid://6437395672", "rbxassetid://6425796280", "rbxassetid://6075395846", "rbxassetid://5584500731", "rbxassetid://5610942639", "rbxassetid://5160712341", "rbxassetid://6549351471", "rbxassetid://6550268109", "rbxassetid://5655028554", "rbxassetid://4933468761", "rbxassetid://5710497007", "rbxassetid://5741657918", "rbxassetid://5768229099", "rbxassetid://5898091102", "rbxassetid://5952824955", "rbxassetid://5947794308", "rbxassetid://6032841223", "rbxassetid://4806105685", "rbxassetid://6093779811", "rbxassetid://6117941170", "rbxassetid://6116415183", "rbxassetid://6117966004", "rbxassetid://6109937685", "rbxassetid://5460374612", "rbxassetid://6165969352", "rbxassetid://6002645804", "rbxassetid://6197068901", "rbxassetid://6370900679", "rbxassetid://6243555061", "rbxassetid://6251050057", "rbxassetid://374838431", "rbxassetid://6523940003", "rbxassetid://6447447883"}
+	while true do 
+		script.Parent.Image = Images[math.random(1,#Images)]
+		wait(6.9) 
+	end
+end
+coroutine.wrap(IJVV_fake_script)()
+local function QMVX_fake_script() -- ScriptLoadButton.ScriptLoader 
+	local script = Instance.new('LocalScript', ScriptLoadButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://pastebin.com/raw/xH2qYJ9B", true))()
+			Spawned = true
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		else
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ErrorSound"):Play()
+			script.Parent.Text = "Already Loaded"
+			wait(2)
+			script.Parent.Text = "Brick Car"
+			
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(QMVX_fake_script)()
+local function KCVSEOU_fake_script() -- ViewHats.ViewHats 
+	local script = Instance.new('LocalScript', ViewHats)
+
+	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
+	local Hat1 = HatImageHolder.Hat1
+	local Hat2 = HatImageHolder.Hat2
+	local Hat3 = HatImageHolder.Hat3
+	local Hat4 = HatImageHolder.Hat4
+	local Hat5 = HatImageHolder.Hat5
+	local Hat6 = HatImageHolder.Hat6
+	local Hat7 = HatImageHolder.Hat7
+	local Hat8 = HatImageHolder.Hat8
+	local Hat9 = HatImageHolder.Hat9
+	local Hat10 = HatImageHolder.Hat10
+	local Clicked = false
+	
+	function leftClick()
+		if Clicked == false then Clicked = true
+			Hat1.HatImage.Image = "rbxassetid://6540089495" Hat1.Visible = true Hat1.HatName.Text = "Eltoria RX750"
+			Hat2.HatImage.Image = "rbxassetid://6540089362" Hat2.Visible = true Hat2.HatName.Text = "Pal Hair"
+			Hat3.HatImage.Image = "rbxassetid://6540089250" Hat3.Visible = true Hat3.HatName.Text = "Red Roblox Cap"
+			Hat4.HatImage.Image = "rbxassetid://6540089151" Hat4.Visible = true Hat4.HatName.Text = "Lavender Updo"
+			Hat5.HatImage.Image = "rbxassetid://6540088977" Hat5.Visible = true Hat5.HatName.Text = "ROBLOX Girl Hair"
+			Hat6.HatImage.Image = "" Hat6.Visible = false Hat6.HatName.Text = ""
+			Hat7.HatImage.Image = "" Hat7.Visible = false Hat7.HatName.Text = "" 
+			Hat8.HatImage.Image = "" Hat8.Visible = false Hat8.HatName.Text = ""
+			Hat9.HatImage.Image = "" Hat9.Visible = false Hat9.HatName.Text = ""
+			Hat10.HatImage.Image = "" Hat10.Visible = false Hat10.HatName.Text = ""
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
+		else
+			Clicked = false
+			Hat1.Visible = false
+			Hat2.Visible = false
+			Hat3.Visible = false
+			Hat4.Visible = false
+			Hat5.Visible = false
+			Hat6.Visible = false
+			Hat7.Visible = false
+			Hat8.Visible = false
+			Hat9.Visible = false
+			Hat10.Visible = false
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(KCVSEOU_fake_script)()
+local function RVFU_fake_script() -- ScriptLoadButton_2.ScriptLoader 
+	local script = Instance.new('LocalScript', ScriptLoadButton_2)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://pastebin.com/raw/KqcTFiad", true))()
+			Spawned = true
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		else
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ErrorSound"):Play()
+			script.Parent.Text = "Already Loaded"
+			wait(2)
+			script.Parent.Text = "Sword Wings"
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(RVFU_fake_script)()
+local function DEIMRB_fake_script() -- ViewHats_2.ViewHats 
+	local script = Instance.new('LocalScript', ViewHats_2)
+
+	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
+	local Hat1 = HatImageHolder.Hat1
+	local Hat2 = HatImageHolder.Hat2
+	local Hat3 = HatImageHolder.Hat3
+	local Hat4 = HatImageHolder.Hat4
+	local Hat5 = HatImageHolder.Hat5
+	local Hat6 = HatImageHolder.Hat6
+	local Hat7 = HatImageHolder.Hat7
+	local Hat8 = HatImageHolder.Hat8
+	local Hat9 = HatImageHolder.Hat9
+	local Hat10 = HatImageHolder.Hat10
+	local Clicked = false
+	
+	function leftClick()
+		if Clicked == false then Clicked = true
+			Hat1.HatImage.Image = "rbxassetid://6546894454" Hat1.Visible = true Hat1.HatName.Text = "Demonic Greatsword"
+			Hat2.HatImage.Image = "rbxassetid://6546894336" Hat2.Visible = true Hat2.HatName.Text = "Corrupt Demonic Greatsword"
+			Hat3.HatImage.Image = "rbxassetid://6546894230" Hat3.Visible = true Hat3.HatName.Text = "Golden Demonic Greatsword"
+			Hat4.HatImage.Image = "rbxassetid://6546894116" Hat4.Visible = true Hat4.HatName.Text = "Frozen Demonic Greatsword"
+			Hat5.HatImage.Image = "rbxassetid://6546893975" Hat5.Visible = true Hat5.HatName.Text = "Shadow Blademaster's Blade"
+			Hat6.HatImage.Image = "rbxassetid://6546893844" Hat6.Visible = true Hat6.HatName.Text = "Blademaster's Blade"
+			Hat7.HatImage.Image = "" Hat7.Visible = false Hat7.HatName.Text = "" 
+			Hat8.HatImage.Image = "" Hat8.Visible = false Hat8.HatName.Text = ""
+			Hat9.HatImage.Image = "" Hat9.Visible = false Hat9.HatName.Text = ""
+			Hat10.HatImage.Image = "" Hat10.Visible = false Hat10.HatName.Text = ""
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
+		else
+			Clicked = false
+			Hat1.Visible = false
+			Hat2.Visible = false
+			Hat3.Visible = false
+			Hat4.Visible = false
+			Hat5.Visible = false
+			Hat6.Visible = false
+			Hat7.Visible = false
+			Hat8.Visible = false
+			Hat9.Visible = false
+			Hat10.Visible = false
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(DEIMRB_fake_script)()
+local function KGHUWA_fake_script() -- ScriptLoadButton_3.ScriptLoader 
+	local script = Instance.new('LocalScript', ScriptLoadButton_3)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/pp/main/pp", true))()
+			Spawned = true
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		else
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ErrorSound"):Play()
+			script.Parent.Text = "Already Loaded"
+			wait(2)
+			script.Parent.Text = "Elephant Trunk"
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(KGHUWA_fake_script)()
+local function CLSBLK_fake_script() -- ViewHats_3.ViewHats 
+	local script = Instance.new('LocalScript', ViewHats_3)
+
+	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
+	local Hat1 = HatImageHolder.Hat1
+	local Hat2 = HatImageHolder.Hat2
+	local Hat3 = HatImageHolder.Hat3
+	local Hat4 = HatImageHolder.Hat4
+	local Hat5 = HatImageHolder.Hat5
+	local Hat6 = HatImageHolder.Hat6
+	local Hat7 = HatImageHolder.Hat7
+	local Hat8 = HatImageHolder.Hat8
+	local Hat9 = HatImageHolder.Hat9
+	local Hat10 = HatImageHolder.Hat10
+	local Clicked = false
+	
+	function leftClick()
+		if Clicked == false then Clicked = true
+			Hat1.HatImage.Image = "rbxassetid://6581146731" Hat1.Visible = true Hat1.HatName.Text = "China Fedora"
+			Hat2.HatImage.Image = "rbxassetid://6581146731" Hat2.Visible = true Hat2.HatName.Text = "Mexico Fedora"
+			Hat3.HatImage.Image = "rbxassetid://6581146490" Hat3.Visible = true Hat3.HatName.Text = "Netherlands Fedora"
+			Hat4.HatImage.Image = "rbxassetid://6581146342" Hat4.Visible = true Hat4.HatName.Text = "Chile Fedora"
+			Hat5.HatImage.Image = "rbxassetid://6581146213" Hat5.Visible = true Hat5.HatName.Text = "UK Fedora"
+			Hat6.HatImage.Image = "rbxassetid://6581146043" Hat6.Visible = true Hat6.HatName.Text = "Vietnam Fedora"
+			Hat7.HatImage.Image = "rbxassetid://6581145948" Hat7.Visible = true Hat7.HatName.Text = "Poland Fedora" 
+			Hat8.HatImage.Image = "rbxassetid://6581145778" Hat8.Visible = true Hat8.HatName.Text = "Thailand Fedora"
+			Hat9.HatImage.Image = "rbxassetid://6581145615" Hat9.Visible = true Hat9.HatName.Text = "Brazil Fedora"
+			Hat10.HatImage.Image = "" Hat10.Visible = false Hat10.HatName.Text = ""
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
+		else
+			Clicked = false
+			Hat1.Visible = false
+			Hat2.Visible = false
+			Hat3.Visible = false
+			Hat4.Visible = false
+			Hat5.Visible = false
+			Hat6.Visible = false
+			Hat7.Visible = false
+			Hat8.Visible = false
+			Hat9.Visible = false
+			Hat10.Visible = false
+			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(CLSBLK_fake_script)()
+local function NJYFRWY_fake_script() -- PageSelector.PageScript 
+	local script = Instance.new('LocalScript', PageSelector)
+
+	local pageLayout = script.Parent.Parent.Pages.UIPageLayout
+	local nextButton = script.Parent.NextButton
+	local prevButton = script.Parent.PrevButton
+	local totalPages = 1
+	local currentPage = 1
+	local pageLabel = script.Parent.PageLabel
+	
+	nextButton.MouseButton1Click:Connect( function ()
+		pageLayout:Next()
+		script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		if currentPage == totalPages then print("On last page!")
+		else
+			currentPage = currentPage + 1
+		
+		pageLabel.Text = ""..currentPage.."  /  "..totalPages..""
+		end
+		end)
+	
+	
+	prevButton.MouseButton1Click:Connect( function ()
+		pageLayout:Previous()
+		script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+		if currentPage == 1 then print("On first page!")
+		else
+			currentPage = currentPage - 1
+		pageLabel.Text = ""..currentPage.."  /  "..totalPages..""
+		end
+		end)
+	
+	pageLayout:JumpToIndex( 0 )
+end
+coroutine.wrap(NJYFRWY_fake_script)()
+local function IBUKDQ_fake_script() -- AudioLoggerButton.ScriptLoader 
+	local script = Instance.new('LocalScript', AudioLoggerButton)
+
+	local Spawned = false
+	
+	function leftClick()
+		if Spawned == false then
+			script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/audiologger/main/audiologger",true))()
+		
+		
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(IBUKDQ_fake_script)()
+local function HEKMDA_fake_script() -- Set.SetValue 
 	local script = Instance.new('LocalScript', Set)
 
 	local Player = game.Players.LocalPlayer
@@ -1350,8 +1637,8 @@ local function HNDPXUW_fake_script() -- Set.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(HNDPXUW_fake_script)()
-local function XKAK_fake_script() -- Set_2.SetValue 
+coroutine.wrap(HEKMDA_fake_script)()
+local function WRWJUW_fake_script() -- Set_2.SetValue 
 	local script = Instance.new('LocalScript', Set_2)
 
 	local Player = game.Players.LocalPlayer
@@ -1373,8 +1660,8 @@ local function XKAK_fake_script() -- Set_2.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(XKAK_fake_script)()
-local function HHCJJF_fake_script() -- Checkbox.SetValue 
+coroutine.wrap(WRWJUW_fake_script)()
+local function WWKLVWJ_fake_script() -- Checkbox.SetValue 
 	local script = Instance.new('LocalScript', Checkbox)
 
 	
@@ -1405,8 +1692,8 @@ local function HHCJJF_fake_script() -- Checkbox.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(HHCJJF_fake_script)()
-local function MFQTZB_fake_script() -- Checkbox_2.SetValue 
+coroutine.wrap(WWKLVWJ_fake_script)()
+local function RASPM_fake_script() -- Checkbox_2.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_2)
 
 	_G.infinjump = false
@@ -1439,8 +1726,8 @@ local function MFQTZB_fake_script() -- Checkbox_2.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(MFQTZB_fake_script)()
-local function KEOY_fake_script() -- Checkbox_3.SetValue 
+coroutine.wrap(RASPM_fake_script)()
+local function NEQOWM_fake_script() -- Checkbox_3.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_3)
 
 	local obj = game.workspace
@@ -1479,8 +1766,8 @@ local function KEOY_fake_script() -- Checkbox_3.SetValue
 		end
 	end)
 end
-coroutine.wrap(KEOY_fake_script)()
-local function XVTR_fake_script() -- Checkbox_4.SetValue 
+coroutine.wrap(NEQOWM_fake_script)()
+local function YXEUS_fake_script() -- Checkbox_4.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_4)
 
 	flying = false
@@ -1587,8 +1874,8 @@ local function XVTR_fake_script() -- Checkbox_4.SetValue
 		end)
 		end)
 end
-coroutine.wrap(XVTR_fake_script)()
-local function YSCI_fake_script() -- Checkbox_5.SetValue 
+coroutine.wrap(YXEUS_fake_script)()
+local function JVXOXI_fake_script() -- Checkbox_5.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_5)
 
 	
@@ -1635,8 +1922,8 @@ local function YSCI_fake_script() -- Checkbox_5.SetValue
 	
 	
 end
-coroutine.wrap(YSCI_fake_script)()
-local function EGBJ_fake_script() -- Checkbox_6.SetValue 
+coroutine.wrap(JVXOXI_fake_script)()
+local function WJWGLI_fake_script() -- Checkbox_6.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_6)
 
 	local crashy = true -- CHANGE THIS TO TRUE IF IT CRASHES THIS GAME
@@ -1808,32 +2095,40 @@ local function EGBJ_fake_script() -- Checkbox_6.SetValue
 		end)
 	end)
 end
-coroutine.wrap(EGBJ_fake_script)()
-local function BEJY_fake_script() -- CurrentCoords.CoordUpdater 
+coroutine.wrap(WJWGLI_fake_script)()
+local function ERPBOV_fake_script() -- CurrentCoords.CoordUpdater 
 	local script = Instance.new('LocalScript', CurrentCoords)
 
-	local box = script.Parent
-	local player = game.Players.LocalPlayer
-	local character = player.Character or player.CharacterAdded:Wait()
-	local torso = character:WaitForChild("HumanoidRootPart")
+	local Players = game:GetService("Players")
 	
-	while true do
-		if torso ~= nil then
-			box.Text = "" .. math.floor(torso.Position.x) .. "," .. math.floor(torso.Position.y) .. "," .. math.floor(torso.Position.z) .. ""
-		elseif torso == nil then
-			box.Text = character.Name .. " has no torso"
+	local function onCharacterAdded(character)
+		local torso = character.HumanoidRootPart
+		local box = script.Parent
+		print(character.Name .. " has spawned")
+		while true do
+			if torso ~= nil then
+				box.Text = "" .. math.floor(torso.Position.x) .. "," .. math.floor(torso.Position.y) .. "," .. math.floor(torso.Position.z) .. ""
+			elseif torso == nil then
+				box.Text = character.Name .. " has no torso"
+			end
+			wait()
 		end
-		wait()
 	end
 	
+	local function onCharacterRemoving(character)
+		print(character.Name .. " is despawning")
+	end
 	
-	--[[
-	this script has the same layout as the speed script.
-	i had to copy that script and paste it and edit it in the position box for this to work
-	]]
+	local function onPlayerAdded(player)
+		player.CharacterAdded:Connect(onCharacterAdded)
+		player.CharacterRemoving:Connect(onCharacterRemoving)
+	end
+	
+	Players.PlayerAdded:Connect(onPlayerAdded)
+	
 end
-coroutine.wrap(BEJY_fake_script)()
-local function QIIZQC_fake_script() -- Coords2Clipboard.Copy2Clipboard 
+coroutine.wrap(ERPBOV_fake_script)()
+local function KURVHR_fake_script() -- Coords2Clipboard.Copy2Clipboard 
 	local script = Instance.new('LocalScript', Coords2Clipboard)
 
 	function leftClick()
@@ -1843,8 +2138,8 @@ local function QIIZQC_fake_script() -- Coords2Clipboard.Copy2Clipboard
 	
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(QIIZQC_fake_script)()
-local function HOUVGK_fake_script() -- Checkbox_7.SetValue 
+coroutine.wrap(KURVHR_fake_script)()
+local function CKILY_fake_script() -- Checkbox_7.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_7)
 
 	Local = game:GetService('Players').LocalPlayer
@@ -1902,295 +2197,8 @@ local function HOUVGK_fake_script() -- Checkbox_7.SetValue
 	
 	
 end
-coroutine.wrap(HOUVGK_fake_script)()
-local function DCMGP_fake_script() -- randomizedtext.randomized; 
-	local script = Instance.new('LocalScript', randomizedtext)
-
-	local Sentences = {"amogus", "windmill of friendship 卐", "dougie help im bouta bust", "ayo dougie, im from the sah-ooth", "alright Dougie, your time is up", "henry jr and henry cr just chillin on the stairs until roberta kicks jr:(","ahahahaahah pointy plane go BRRRRRRRRRRRRRRR", "420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420 420", "😳 bro?", "cnn fakes their news cause gay", "we had to call the popo to fix a pipe in the pines house today LOL", "buddy is currently on my epik blue gaming chair trying to eat my mcdonalds sandwhich","biden licks little boys","ranch dip","this text is randomly generated lmao","biden is a garbage president","diet coke tastes very good L","cheese", "alpharad makes good content", "follow DietCokeTastesGood on roblox or you're gay", "only biden supporters like pepsi", "f", "windows pog?!??!?", "ivan is cool", "#superstraight", "heterosexual is the best kind of sexual", "alt+f4 pls", "i just ate a Chobani flip S'more yogurt and it was  good", "bottom text", "top text", "69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69", "Ivan is eating yummy chips rn and they r very pog", "drippy drippy goku XDXDXD"}
-	while true do 
-		script.Parent.Text = Sentences[math.random(1,#Sentences)]
-		wait(6.9) 
-	end
-end
-coroutine.wrap(DCMGP_fake_script)()
-local function DSCWXMO_fake_script() -- randomizedimage.randomized; 
-	local script = Instance.new('LocalScript', randomizedimage)
-
-	local Images = {"rbxassetid://4759703774", "rbxassetid://1505144534", "rbxassetid://2663223907", "rbxassetid://5666154615", "rbxassetid://1639707845", "rbxassetid://1315317859", "rbxassetid://6464730351", "rbxassetid://6494652399", "rbxassetid://6437395672", "rbxassetid://6425796280", "rbxassetid://6075395846", "rbxassetid://5584500731", "rbxassetid://5610942639", "rbxassetid://5160712341", "rbxassetid://6549351471", "rbxassetid://6550268109", "rbxassetid://5655028554", "rbxassetid://4933468761", "rbxassetid://5710497007", "rbxassetid://5741657918", "rbxassetid://5768229099", "rbxassetid://5898091102", "rbxassetid://5952824955", "rbxassetid://5947794308", "rbxassetid://6032841223", "rbxassetid://4806105685", "rbxassetid://6093779811", "rbxassetid://6117941170", "rbxassetid://6116415183", "rbxassetid://6117966004", "rbxassetid://6109937685", "rbxassetid://5460374612", "rbxassetid://6165969352", "rbxassetid://6002645804", "rbxassetid://6197068901", "rbxassetid://6370900679", "rbxassetid://6243555061", "rbxassetid://6251050057", "rbxassetid://374838431", "rbxassetid://6523940003", "rbxassetid://6447447883"}
-	while true do 
-		script.Parent.Image = Images[math.random(1,#Images)]
-		wait(6.9) 
-	end
-end
-coroutine.wrap(DSCWXMO_fake_script)()
-local function JEPUD_fake_script() -- ScriptLoadButton.ScriptLoader 
-	local script = Instance.new('LocalScript', ScriptLoadButton)
-
-	local Spawned = false
-	
-	function leftClick()
-		if Spawned == false then
-			loadstring(game:HttpGet("https://pastebin.com/raw/xH2qYJ9B", true))()
-			Spawned = true
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
-		else
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ErrorSound"):Play()
-			script.Parent.Text = "Already Loaded"
-			wait(2)
-			script.Parent.Text = "Brick Car"
-			
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(leftClick)
-	
-end
-coroutine.wrap(JEPUD_fake_script)()
-local function MIWW_fake_script() -- ViewHats.ViewHats 
-	local script = Instance.new('LocalScript', ViewHats)
-
-	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
-	local Hat1 = HatImageHolder.Hat1
-	local Hat2 = HatImageHolder.Hat2
-	local Hat3 = HatImageHolder.Hat3
-	local Hat4 = HatImageHolder.Hat4
-	local Hat5 = HatImageHolder.Hat5
-	local Hat6 = HatImageHolder.Hat6
-	local Hat7 = HatImageHolder.Hat7
-	local Hat8 = HatImageHolder.Hat8
-	local Hat9 = HatImageHolder.Hat9
-	local Hat10 = HatImageHolder.Hat10
-	local Clicked = false
-	
-	function leftClick()
-		if Clicked == false then Clicked = true
-			Hat1.HatImage.Image = "rbxassetid://6540089495" Hat1.Visible = true Hat1.HatName.Text = "Eltoria RX750"
-			Hat2.HatImage.Image = "rbxassetid://6540089362" Hat2.Visible = true Hat2.HatName.Text = "Pal Hair"
-			Hat3.HatImage.Image = "rbxassetid://6540089250" Hat3.Visible = true Hat3.HatName.Text = "Red Roblox Cap"
-			Hat4.HatImage.Image = "rbxassetid://6540089151" Hat4.Visible = true Hat4.HatName.Text = "Lavender Updo"
-			Hat5.HatImage.Image = "rbxassetid://6540088977" Hat5.Visible = true Hat5.HatName.Text = "ROBLOX Girl Hair"
-			Hat6.HatImage.Image = "" Hat6.Visible = false Hat6.HatName.Text = ""
-			Hat7.HatImage.Image = "" Hat7.Visible = false Hat7.HatName.Text = "" 
-			Hat8.HatImage.Image = "" Hat8.Visible = false Hat8.HatName.Text = ""
-			Hat9.HatImage.Image = "" Hat9.Visible = false Hat9.HatName.Text = ""
-			Hat10.HatImage.Image = "" Hat10.Visible = false Hat10.HatName.Text = ""
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
-		else
-			Clicked = false
-			Hat1.Visible = false
-			Hat2.Visible = false
-			Hat3.Visible = false
-			Hat4.Visible = false
-			Hat5.Visible = false
-			Hat6.Visible = false
-			Hat7.Visible = false
-			Hat8.Visible = false
-			Hat9.Visible = false
-			Hat10.Visible = false
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(leftClick)
-	
-end
-coroutine.wrap(MIWW_fake_script)()
-local function EXHUCQ_fake_script() -- ScriptLoadButton_2.ScriptLoader 
-	local script = Instance.new('LocalScript', ScriptLoadButton_2)
-
-	local Spawned = false
-	
-	function leftClick()
-		if Spawned == false then
-			loadstring(game:HttpGet("https://pastebin.com/raw/KqcTFiad", true))()
-			Spawned = true
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
-		else
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ErrorSound"):Play()
-			script.Parent.Text = "Already Loaded"
-			wait(2)
-			script.Parent.Text = "Sword Wings"
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(leftClick)
-	
-end
-coroutine.wrap(EXHUCQ_fake_script)()
-local function VDVZX_fake_script() -- ViewHats_2.ViewHats 
-	local script = Instance.new('LocalScript', ViewHats_2)
-
-	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
-	local Hat1 = HatImageHolder.Hat1
-	local Hat2 = HatImageHolder.Hat2
-	local Hat3 = HatImageHolder.Hat3
-	local Hat4 = HatImageHolder.Hat4
-	local Hat5 = HatImageHolder.Hat5
-	local Hat6 = HatImageHolder.Hat6
-	local Hat7 = HatImageHolder.Hat7
-	local Hat8 = HatImageHolder.Hat8
-	local Hat9 = HatImageHolder.Hat9
-	local Hat10 = HatImageHolder.Hat10
-	local Clicked = false
-	
-	function leftClick()
-		if Clicked == false then Clicked = true
-			Hat1.HatImage.Image = "rbxassetid://6546894454" Hat1.Visible = true Hat1.HatName.Text = "Demonic Greatsword"
-			Hat2.HatImage.Image = "rbxassetid://6546894336" Hat2.Visible = true Hat2.HatName.Text = "Corrupt Demonic Greatsword"
-			Hat3.HatImage.Image = "rbxassetid://6546894230" Hat3.Visible = true Hat3.HatName.Text = "Golden Demonic Greatsword"
-			Hat4.HatImage.Image = "rbxassetid://6546894116" Hat4.Visible = true Hat4.HatName.Text = "Frozen Demonic Greatsword"
-			Hat5.HatImage.Image = "rbxassetid://6546893975" Hat5.Visible = true Hat5.HatName.Text = "Shadow Blademaster's Blade"
-			Hat6.HatImage.Image = "rbxassetid://6546893844" Hat6.Visible = true Hat6.HatName.Text = "Blademaster's Blade"
-			Hat7.HatImage.Image = "" Hat7.Visible = false Hat7.HatName.Text = "" 
-			Hat8.HatImage.Image = "" Hat8.Visible = false Hat8.HatName.Text = ""
-			Hat9.HatImage.Image = "" Hat9.Visible = false Hat9.HatName.Text = ""
-			Hat10.HatImage.Image = "" Hat10.Visible = false Hat10.HatName.Text = ""
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
-		else
-			Clicked = false
-			Hat1.Visible = false
-			Hat2.Visible = false
-			Hat3.Visible = false
-			Hat4.Visible = false
-			Hat5.Visible = false
-			Hat6.Visible = false
-			Hat7.Visible = false
-			Hat8.Visible = false
-			Hat9.Visible = false
-			Hat10.Visible = false
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(leftClick)
-	
-end
-coroutine.wrap(VDVZX_fake_script)()
-local function QCYHML_fake_script() -- ScriptLoadButton_3.ScriptLoader 
-	local script = Instance.new('LocalScript', ScriptLoadButton_3)
-
-	local Spawned = false
-	
-	function leftClick()
-		if Spawned == false then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/pp/main/pp", true))()
-			Spawned = true
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
-		else
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ErrorSound"):Play()
-			script.Parent.Text = "Already Loaded"
-			wait(2)
-			script.Parent.Text = "Elephant Trunk"
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(leftClick)
-	
-end
-coroutine.wrap(QCYHML_fake_script)()
-local function HJEWK_fake_script() -- ViewHats_3.ViewHats 
-	local script = Instance.new('LocalScript', ViewHats_3)
-
-	local HatImageHolder = script.Parent.Parent.Parent.Parent.Parent.HatViewer
-	local Hat1 = HatImageHolder.Hat1
-	local Hat2 = HatImageHolder.Hat2
-	local Hat3 = HatImageHolder.Hat3
-	local Hat4 = HatImageHolder.Hat4
-	local Hat5 = HatImageHolder.Hat5
-	local Hat6 = HatImageHolder.Hat6
-	local Hat7 = HatImageHolder.Hat7
-	local Hat8 = HatImageHolder.Hat8
-	local Hat9 = HatImageHolder.Hat9
-	local Hat10 = HatImageHolder.Hat10
-	local Clicked = false
-	
-	function leftClick()
-		if Clicked == false then Clicked = true
-			Hat1.HatImage.Image = "rbxassetid://6581146731" Hat1.Visible = true Hat1.HatName.Text = "China Fedora"
-			Hat2.HatImage.Image = "rbxassetid://6581146731" Hat2.Visible = true Hat2.HatName.Text = "Mexico Fedora"
-			Hat3.HatImage.Image = "rbxassetid://6581146490" Hat3.Visible = true Hat3.HatName.Text = "Netherlands Fedora"
-			Hat4.HatImage.Image = "rbxassetid://6581146342" Hat4.Visible = true Hat4.HatName.Text = "Chile Fedora"
-			Hat5.HatImage.Image = "rbxassetid://6581146213" Hat5.Visible = true Hat5.HatName.Text = "UK Fedora"
-			Hat6.HatImage.Image = "rbxassetid://6581146043" Hat6.Visible = true Hat6.HatName.Text = "Vietnam Fedora"
-			Hat7.HatImage.Image = "rbxassetid://6581145948" Hat7.Visible = true Hat7.HatName.Text = "Poland Fedora" 
-			Hat8.HatImage.Image = "rbxassetid://6581145778" Hat8.Visible = true Hat8.HatName.Text = "Thailand Fedora"
-			Hat9.HatImage.Image = "rbxassetid://6581145615" Hat9.Visible = true Hat9.HatName.Text = "Brazil Fedora"
-			Hat10.HatImage.Image = "" Hat10.Visible = false Hat10.HatName.Text = ""
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
-		else
-			Clicked = false
-			Hat1.Visible = false
-			Hat2.Visible = false
-			Hat3.Visible = false
-			Hat4.Visible = false
-			Hat5.Visible = false
-			Hat6.Visible = false
-			Hat7.Visible = false
-			Hat8.Visible = false
-			Hat9.Visible = false
-			Hat10.Visible = false
-			script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("SoundScript"):Play()
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(leftClick)
-	
-end
-coroutine.wrap(HJEWK_fake_script)()
-local function SARO_fake_script() -- PageSelector.PageScript 
-	local script = Instance.new('LocalScript', PageSelector)
-
-	local pageLayout = script.Parent.Parent.Pages.UIPageLayout
-	local nextButton = script.Parent.NextButton
-	local prevButton = script.Parent.PrevButton
-	local totalPages = 1
-	local currentPage = 1
-	local pageLabel = script.Parent.PageLabel
-	
-	nextButton.MouseButton1Click:Connect( function ()
-		pageLayout:Next()
-		script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
-		if currentPage == totalPages then print("On last page!")
-		else
-			currentPage = currentPage + 1
-		
-		pageLabel.Text = ""..currentPage.."  /  "..totalPages..""
-		end
-		end)
-	
-	
-	prevButton.MouseButton1Click:Connect( function ()
-		pageLayout:Previous()
-		script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
-		if currentPage == 1 then print("On first page!")
-		else
-			currentPage = currentPage - 1
-		pageLabel.Text = ""..currentPage.."  /  "..totalPages..""
-		end
-		end)
-	
-	pageLayout:JumpToIndex( 0 )
-end
-coroutine.wrap(SARO_fake_script)()
-local function HVUF_fake_script() -- AudioLoggerButton.ScriptLoader 
-	local script = Instance.new('LocalScript', AudioLoggerButton)
-
-	local Spawned = false
-	
-	function leftClick()
-		if Spawned == false then
-			script.Parent.Parent.Parent.Parent.SoundScript:WaitForChild("ClickSound"):Play()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/mikelmikelmikelkikel/audiologger/main/audiologger",true))()
-		
-		
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(leftClick)
-	
-end
-coroutine.wrap(HVUF_fake_script)()
-local function WIFBS_fake_script() -- Arrow.OpenScript 
+coroutine.wrap(CKILY_fake_script)()
+local function ALLRPSM_fake_script() -- Arrow.OpenScript 
 	local script = Instance.new('LocalScript', Arrow)
 
 	local Open = false
@@ -2213,8 +2221,8 @@ local function WIFBS_fake_script() -- Arrow.OpenScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(WIFBS_fake_script)()
-local function IVCMKFI_fake_script() -- Character_2.LocalScript 
+coroutine.wrap(ALLRPSM_fake_script)()
+local function DBFQV_fake_script() -- Character_2.LocalScript 
 	local script = Instance.new('LocalScript', Character_2)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2234,8 +2242,8 @@ local function IVCMKFI_fake_script() -- Character_2.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(IVCMKFI_fake_script)()
-local function GSRCBRL_fake_script() -- Scripts.LocalScript 
+coroutine.wrap(DBFQV_fake_script)()
+local function MOFZ_fake_script() -- Scripts.LocalScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2255,8 +2263,8 @@ local function GSRCBRL_fake_script() -- Scripts.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(GSRCBRL_fake_script)()
-local function UUJY_fake_script() -- HatScripts_2.LocalScript 
+coroutine.wrap(MOFZ_fake_script)()
+local function LCTI_fake_script() -- HatScripts_2.LocalScript 
 	local script = Instance.new('LocalScript', HatScripts_2)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2276,8 +2284,8 @@ local function UUJY_fake_script() -- HatScripts_2.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(UUJY_fake_script)()
-local function VGLV_fake_script() -- Audio.LocalScript 
+coroutine.wrap(LCTI_fake_script)()
+local function DIXT_fake_script() -- Audio.LocalScript 
 	local script = Instance.new('LocalScript', Audio)
 
 	local Menus = script.Parent.Parent.Parent.Parent.Menus
@@ -2297,4 +2305,4 @@ local function VGLV_fake_script() -- Audio.LocalScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(VGLV_fake_script)()
+coroutine.wrap(DIXT_fake_script)()
