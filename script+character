@@ -658,7 +658,7 @@ AbsoluteValue_2.TextSize = 12.000
 AbsoluteValue_2.TextTransparency = 1.000
 
 Scripts.Name = "Scripts"
-Scripts.Parent = game.Players.LocalPlayer.Playergui.WindowsXP.MainFrame.Menus
+Scripts.Parent = game.Players.LocalPlayer.PlayerGui.WindowsXP.MainFrame.Menus
 Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Scripts.BackgroundTransparency = 1.000
 Scripts.Size = UDim2.new(0, 250, 0, 434)
