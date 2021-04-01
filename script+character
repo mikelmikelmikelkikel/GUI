@@ -104,7 +104,7 @@ local Line_2 = Instance.new("ImageLabel")
 --Properties:
 
 Character.Name = "Character"
-Character.Parent = game.Players.LocalPlayer.PlayerGui.WindowsXP.MainFrame.Menus
+Character.Parent = game.Players.LocalPlayer.PLayerGui.WindowsXP.MainFrame.Menus
 Character.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Character.BackgroundTransparency = 1.000
 Character.Size = UDim2.new(0, 250, 0, 434)
@@ -1032,7 +1032,7 @@ Line_2.Image = "rbxassetid://6531586437"
 
 -- Scripts:
 
-local function VZFSKS_fake_script() -- Checkbox.SetValue 
+local function YGWAKN_fake_script() -- Checkbox.SetValue 
 	local script = Instance.new('LocalScript', Checkbox)
 
 	
@@ -1079,8 +1079,8 @@ local function VZFSKS_fake_script() -- Checkbox.SetValue
 	
 	
 end
-coroutine.wrap(VZFSKS_fake_script)()
-local function HDRZMUZ_fake_script() -- Slider.SliderController 
+coroutine.wrap(YGWAKN_fake_script)()
+local function OPIIVVX_fake_script() -- Slider.SliderController 
 	local script = Instance.new('LocalScript', Slider)
 
 	local Slider = script.Parent.Slider
@@ -1093,6 +1093,11 @@ local function HDRZMUZ_fake_script() -- Slider.SliderController
 	
 	local MaxValue = 250
 	local MinValue = 16
+	
+	local currentSlideValue = Instance.new("IntValue")
+	currentSlideValue.Name = "Value"
+	currentSlideValue.Value = 0
+	currentSlideValue.Value.Parent = Slider
 	
 	local function Update()
 		if Dragging == true then
@@ -1124,7 +1129,7 @@ local function HDRZMUZ_fake_script() -- Slider.SliderController
 			Slider.Indicator.HolderButton.Value.Text = tostring(math.floor(Slider.Value.Value))
 			Slider.Parent.Value.Text = tostring(math.floor(Slider.Value.Value)).." | "..MaxValue
 			
-			Character.Humanoid.WalkSpeed = script.Parent.Slider.Value.Value
+			Character.Humanoid.WalkSpeed = Slider.Value.Value
 		end
 	end
 	
@@ -1174,8 +1179,8 @@ local function HDRZMUZ_fake_script() -- Slider.SliderController
 	Slider.Indicator.HolderButton.Value.Text = tostring(math.floor(Slider.Value.Value))
 	Slider.Parent.Value.Text = tostring(math.floor(Slider.Value.Value)).." | "..MaxValue
 end
-coroutine.wrap(HDRZMUZ_fake_script)()
-local function KRGSE_fake_script() -- Checkbox_2.SetValue 
+coroutine.wrap(OPIIVVX_fake_script)()
+local function DHLZGXG_fake_script() -- Checkbox_2.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_2)
 
 	local crashy = true -- CHANGE THIS TO TRUE IF IT CRASHES THIS GAME
@@ -1347,8 +1352,8 @@ local function KRGSE_fake_script() -- Checkbox_2.SetValue
 		end)
 	end)
 end
-coroutine.wrap(KRGSE_fake_script)()
-local function YYKKDRD_fake_script() -- Checkbox_3.SetValue 
+coroutine.wrap(DHLZGXG_fake_script)()
+local function DNJQW_fake_script() -- Checkbox_3.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_3)
 
 	local obj = game.workspace
@@ -1387,8 +1392,8 @@ local function YYKKDRD_fake_script() -- Checkbox_3.SetValue
 		end
 	end)
 end
-coroutine.wrap(YYKKDRD_fake_script)()
-local function DKJHWXO_fake_script() -- Checkbox_4.SetValue 
+coroutine.wrap(DNJQW_fake_script)()
+local function LGLMY_fake_script() -- Checkbox_4.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_4)
 
 	
@@ -1419,8 +1424,8 @@ local function DKJHWXO_fake_script() -- Checkbox_4.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DKJHWXO_fake_script)()
-local function UIQME_fake_script() -- Checkbox_5.SetValue 
+coroutine.wrap(LGLMY_fake_script)()
+local function XWYH_fake_script() -- Checkbox_5.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_5)
 
 	Local = game:GetService('Players').LocalPlayer
@@ -1478,8 +1483,8 @@ local function UIQME_fake_script() -- Checkbox_5.SetValue
 	
 	
 end
-coroutine.wrap(UIQME_fake_script)()
-local function SIIJ_fake_script() -- Checkbox_6.SetValue 
+coroutine.wrap(XWYH_fake_script)()
+local function ZPMMGK_fake_script() -- Checkbox_6.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_6)
 
 	_G.infinjump = false
@@ -1512,8 +1517,8 @@ local function SIIJ_fake_script() -- Checkbox_6.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(SIIJ_fake_script)()
-local function YPMZ_fake_script() -- Checkbox_7.SetValue 
+coroutine.wrap(ZPMMGK_fake_script)()
+local function TSHOENW_fake_script() -- Checkbox_7.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_7)
 
 	flying = false
@@ -1620,8 +1625,8 @@ local function YPMZ_fake_script() -- Checkbox_7.SetValue
 		end)
 		end)
 end
-coroutine.wrap(YPMZ_fake_script)()
-local function NQRRQ_fake_script() -- Slider_3.SliderController 
+coroutine.wrap(TSHOENW_fake_script)()
+local function QVGXGC_fake_script() -- Slider_3.SliderController 
 	local script = Instance.new('LocalScript', Slider_3)
 
 	local Slider = script.Parent.Slider
@@ -1634,6 +1639,11 @@ local function NQRRQ_fake_script() -- Slider_3.SliderController
 	
 	local MaxValue = 1000
 	local MinValue = 50
+	
+	local currentSlideValue = Instance.new("IntValue")
+	currentSlideValue.Name = "Value"
+	currentSlideValue.Value = 0
+	currentSlideValue.Value.Parent = Slider
 	
 	local function Update()
 		if Dragging == true then
@@ -1715,8 +1725,8 @@ local function NQRRQ_fake_script() -- Slider_3.SliderController
 	Slider.Indicator.HolderButton.Value.Text = tostring(math.floor(Slider.Value.Value))
 	Slider.Parent.Value.Text = tostring(math.floor(Slider.Value.Value)).." | "..MaxValue
 end
-coroutine.wrap(NQRRQ_fake_script)()
-local function IDMCGTG_fake_script() -- AssassinButton.ScriptLoader 
+coroutine.wrap(QVGXGC_fake_script)()
+local function RBGM_fake_script() -- AssassinButton.ScriptLoader 
 	local script = Instance.new('LocalScript', AssassinButton)
 
 	local Spawned = false
@@ -1732,8 +1742,8 @@ local function IDMCGTG_fake_script() -- AssassinButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(IDMCGTG_fake_script)()
-local function AFXWPH_fake_script() -- ChatBypassButton.ScriptLoader 
+coroutine.wrap(RBGM_fake_script)()
+local function NWVYFZ_fake_script() -- ChatBypassButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ChatBypassButton)
 
 	local Spawned = false
@@ -1749,8 +1759,8 @@ local function AFXWPH_fake_script() -- ChatBypassButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(AFXWPH_fake_script)()
-local function FRJN_fake_script() -- MM2Button.ScriptLoader 
+coroutine.wrap(NWVYFZ_fake_script)()
+local function ZWWLW_fake_script() -- MM2Button.ScriptLoader 
 	local script = Instance.new('LocalScript', MM2Button)
 
 	local Spawned = false
@@ -1766,8 +1776,8 @@ local function FRJN_fake_script() -- MM2Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(FRJN_fake_script)()
-local function ICXXS_fake_script() -- NullwareHubButton.ScriptLoader 
+coroutine.wrap(ZWWLW_fake_script)()
+local function LFMOER_fake_script() -- NullwareHubButton.ScriptLoader 
 	local script = Instance.new('LocalScript', NullwareHubButton)
 
 	local Spawned = false
@@ -1783,8 +1793,8 @@ local function ICXXS_fake_script() -- NullwareHubButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(ICXXS_fake_script)()
-local function DRZY_fake_script() -- ProjectPokeButton.ScriptLoader 
+coroutine.wrap(LFMOER_fake_script)()
+local function DGVM_fake_script() -- ProjectPokeButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ProjectPokeButton)
 
 	local Spawned = false
@@ -1800,8 +1810,8 @@ local function DRZY_fake_script() -- ProjectPokeButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DRZY_fake_script)()
-local function DXEPBBX_fake_script() -- SSSButton.ScriptLoader 
+coroutine.wrap(DGVM_fake_script)()
+local function NIZREHO_fake_script() -- SSSButton.ScriptLoader 
 	local script = Instance.new('LocalScript', SSSButton)
 
 	local Spawned = false
@@ -1817,8 +1827,8 @@ local function DXEPBBX_fake_script() -- SSSButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DXEPBBX_fake_script)()
-local function LJEGNXT_fake_script() -- SpecHub1Button.ScriptLoader 
+coroutine.wrap(NIZREHO_fake_script)()
+local function FTKFYB_fake_script() -- SpecHub1Button.ScriptLoader 
 	local script = Instance.new('LocalScript', SpecHub1Button)
 
 	local Spawned = false
@@ -1834,8 +1844,8 @@ local function LJEGNXT_fake_script() -- SpecHub1Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(LJEGNXT_fake_script)()
-local function VUNWUXG_fake_script() -- SpecHub2Button.ScriptLoader 
+coroutine.wrap(FTKFYB_fake_script)()
+local function MKXKZ_fake_script() -- SpecHub2Button.ScriptLoader 
 	local script = Instance.new('LocalScript', SpecHub2Button)
 
 	local Spawned = false
@@ -1850,8 +1860,8 @@ local function VUNWUXG_fake_script() -- SpecHub2Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(VUNWUXG_fake_script)()
-local function KILHK_fake_script() -- WheresTheBabyButton.ScriptLoader 
+coroutine.wrap(MKXKZ_fake_script)()
+local function AURRRE_fake_script() -- WheresTheBabyButton.ScriptLoader 
 	local script = Instance.new('LocalScript', WheresTheBabyButton)
 
 	local Spawned = false
@@ -1866,8 +1876,8 @@ local function KILHK_fake_script() -- WheresTheBabyButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(KILHK_fake_script)()
-local function ISRCIH_fake_script() -- ShindoLifeButton.ScriptLoader 
+coroutine.wrap(AURRRE_fake_script)()
+local function ZWLTI_fake_script() -- ShindoLifeButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ShindoLifeButton)
 
 	local Spawned = false
@@ -1882,8 +1892,8 @@ local function ISRCIH_fake_script() -- ShindoLifeButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(ISRCIH_fake_script)()
-local function XSFFKC_fake_script() -- AnimateButton.ScriptLoader 
+coroutine.wrap(ZWLTI_fake_script)()
+local function DIUN_fake_script() -- AnimateButton.ScriptLoader 
 	local script = Instance.new('LocalScript', AnimateButton)
 
 	local Spawned = false
@@ -1899,8 +1909,8 @@ local function XSFFKC_fake_script() -- AnimateButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(XSFFKC_fake_script)()
-local function LLLNFP_fake_script() -- CartRideButton.ScriptLoader 
+coroutine.wrap(DIUN_fake_script)()
+local function VAMIS_fake_script() -- CartRideButton.ScriptLoader 
 	local script = Instance.new('LocalScript', CartRideButton)
 
 	local Spawned = false
@@ -1916,8 +1926,8 @@ local function LLLNFP_fake_script() -- CartRideButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(LLLNFP_fake_script)()
-local function SZWGE_fake_script() -- PageSelector.PageScript 
+coroutine.wrap(VAMIS_fake_script)()
+local function KJIVM_fake_script() -- PageSelector.PageScript 
 	local script = Instance.new('LocalScript', PageSelector)
 
 	local pageLayout = script.Parent.Parent.Pages.UIPageLayout
@@ -1951,4 +1961,4 @@ local function SZWGE_fake_script() -- PageSelector.PageScript
 	
 	pageLayout:JumpToIndex( 0 )
 end
-coroutine.wrap(SZWGE_fake_script)()
+coroutine.wrap(KJIVM_fake_script)()
