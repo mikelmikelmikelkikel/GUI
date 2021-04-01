@@ -104,7 +104,7 @@ local Line_2 = Instance.new("ImageLabel")
 --Properties:
 
 Character.Name = "Character"
-Character.Parent = game.Players.LocalPlayer.PLayerGui.WindowsXP.MainFrame.Menus
+Character.Parent = game.Players.LocalPlayer.PlayerGui.WindowsXP.MainFrame.Menus
 Character.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Character.BackgroundTransparency = 1.000
 Character.Size = UDim2.new(0, 250, 0, 434)
