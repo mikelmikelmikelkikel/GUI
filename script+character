@@ -1,7 +1,7 @@
 -- Gui to Lua
 -- Version: 3.2
 
--- Instances
+-- Instances:
 
 local Character = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
@@ -10,23 +10,6 @@ local ClickToTP = Instance.new("Frame")
 local Checkbox = Instance.new("ImageButton")
 local Title_2 = Instance.new("TextLabel")
 local CTRL = Instance.new("TextLabel")
-local Walkspeed = Instance.new("Frame")
-local Slider = Instance.new("Frame")
-local Slider_2 = Instance.new("TextButton")
-local Indicator = Instance.new("Frame")
-local HolderButton = Instance.new("TextLabel")
-local UICorner = Instance.new("UICorner")
-local Value = Instance.new("TextLabel")
-local UICorner_2 = Instance.new("UICorner")
-local SliderImg = Instance.new("ImageLabel")
-local UICorner_3 = Instance.new("UICorner")
-local UICorner_4 = Instance.new("UICorner")
-local UIGradient = Instance.new("UIGradient")
-local Sliderbg = Instance.new("ImageLabel")
-local WalkspeedTitle = Instance.new("TextLabel")
-local Value_2 = Instance.new("TextLabel")
-local UICorner_5 = Instance.new("UICorner")
-local AbsoluteValue = Instance.new("TextLabel")
 local PlayerXray = Instance.new("Frame")
 local Checkbox_2 = Instance.new("ImageButton")
 local Title_3 = Instance.new("TextLabel")
@@ -34,8 +17,8 @@ local PartXray = Instance.new("Frame")
 local Checkbox_3 = Instance.new("ImageButton")
 local Title_4 = Instance.new("TextLabel")
 local NoClip = Instance.new("Frame")
-local Checkbox_4 = Instance.new("ImageButton")
 local Title_5 = Instance.new("TextLabel")
+local Checkbox_4 = Instance.new("ImageButton")
 local Invisible = Instance.new("Frame")
 local Checkbox_5 = Instance.new("ImageButton")
 local Title_6 = Instance.new("TextLabel")
@@ -48,6 +31,23 @@ local Checkbox_7 = Instance.new("ImageButton")
 local Title_8 = Instance.new("TextLabel")
 local x = Instance.new("TextLabel")
 local JumpHeight = Instance.new("Frame")
+local Slider = Instance.new("Frame")
+local Slider_2 = Instance.new("TextButton")
+local Indicator = Instance.new("Frame")
+local HolderButton = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Value = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local SliderImg = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Sliderbg = Instance.new("ImageLabel")
+local JumpheightTitle = Instance.new("TextLabel")
+local Value_2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local AbsoluteValue = Instance.new("TextLabel")
+local Walkspeed = Instance.new("Frame")
 local Slider_3 = Instance.new("Frame")
 local Slider_4 = Instance.new("TextButton")
 local Indicator_2 = Instance.new("Frame")
@@ -60,7 +60,7 @@ local UICorner_8 = Instance.new("UICorner")
 local UICorner_9 = Instance.new("UICorner")
 local UIGradient_2 = Instance.new("UIGradient")
 local Sliderbg_2 = Instance.new("ImageLabel")
-local JumpheightTitle = Instance.new("TextLabel")
+local WalkspeedTitle = Instance.new("TextLabel")
 local Value_4 = Instance.new("TextLabel")
 local UICorner_10 = Instance.new("UICorner")
 local AbsoluteValue_2 = Instance.new("TextLabel")
@@ -108,7 +108,6 @@ Character.Parent = game.Players.LocalPlayer.PlayerGui.WindowsXP.MainFrame.Menus
 Character.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Character.BackgroundTransparency = 1.000
 Character.Size = UDim2.new(0, 250, 0, 434)
-Character.Visible = false
 Character.ZIndex = 2
 
 Title.Name = "Title"
@@ -175,146 +174,6 @@ CTRL.TextScaled = true
 CTRL.TextSize = 14.000
 CTRL.TextWrapped = true
 
-Walkspeed.Name = "Walkspeed"
-Walkspeed.Parent = Character
-Walkspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Walkspeed.BackgroundTransparency = 0.900
-Walkspeed.Position = UDim2.new(0.00400006119, 0, 0.0967741236, 0)
-Walkspeed.Size = UDim2.new(0, 249, 0, 55)
-
-Slider.Name = "Slider"
-Slider.Parent = Walkspeed
-Slider.AnchorPoint = Vector2.new(0.5, 0.5)
-Slider.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-Slider.BackgroundTransparency = 1.000
-Slider.BorderSizePixel = 0
-Slider.Position = UDim2.new(0.133919001, 0, 0.439763218, 0)
-Slider.Size = UDim2.new(0.272838116, 0, 0.926929832, 0)
-
-Slider_2.Name = "Slider"
-Slider_2.Parent = Slider
-Slider_2.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
-Slider_2.BackgroundTransparency = 1.000
-Slider_2.BorderSizePixel = 0
-Slider_2.Position = UDim2.new(0.171901539, 0, 0.373747259, 0)
-Slider_2.Size = UDim2.new(0, 224, 0, 19)
-Slider_2.AutoButtonColor = false
-Slider_2.Font = Enum.Font.SourceSans
-Slider_2.Text = ""
-Slider_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-Slider_2.TextSize = 14.000
-
-Indicator.Name = "Indicator"
-Indicator.Parent = Slider_2
-Indicator.BackgroundColor3 = Color3.fromRGB(85, 170, 0)
-Indicator.BackgroundTransparency = 1.000
-Indicator.BorderSizePixel = 0
-Indicator.Position = UDim2.new(-0.00131054246, 0, 0, 0)
-Indicator.Size = UDim2.new(0, 0, 1, 0)
-
-HolderButton.Name = "HolderButton"
-HolderButton.Parent = Indicator
-HolderButton.AnchorPoint = Vector2.new(0.5, 0.5)
-HolderButton.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
-HolderButton.BackgroundTransparency = 1.000
-HolderButton.Position = UDim2.new(INF, 0, 0.5, 0)
-HolderButton.Size = UDim2.new(0, 13, 0, 25)
-HolderButton.ZIndex = 5
-HolderButton.Font = Enum.Font.SourceSans
-HolderButton.Text = ""
-HolderButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-HolderButton.TextSize = 14.000
-HolderButton.TextTransparency = 2.000
-
-UICorner.CornerRadius = UDim.new(0, 3)
-UICorner.Parent = HolderButton
-
-Value.Name = "Value"
-Value.Parent = HolderButton
-Value.AnchorPoint = Vector2.new(0.5, 0.5)
-Value.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-Value.BackgroundTransparency = 1.000
-Value.Position = UDim2.new(0.699999988, 0, -0.360000014, 0)
-Value.Size = UDim2.new(0, 36, 0, 18)
-Value.Font = Enum.Font.Arcade
-Value.Text = "0"
-Value.TextColor3 = Color3.fromRGB(209, 209, 209)
-Value.TextSize = 14.000
-Value.TextTransparency = 1.000
-
-UICorner_2.CornerRadius = UDim.new(0, 3)
-UICorner_2.Parent = Value
-
-SliderImg.Name = "SliderImg"
-SliderImg.Parent = HolderButton
-SliderImg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SliderImg.BackgroundTransparency = 1.000
-SliderImg.Position = UDim2.new(-0.0787956268, 0, 1.2207031e-06, 0)
-SliderImg.Size = UDim2.new(0, 14, 0, 24)
-SliderImg.Image = "rbxassetid://6597165862"
-
-UICorner_3.CornerRadius = UDim.new(0, 2)
-UICorner_3.Parent = Indicator
-
-UICorner_4.CornerRadius = UDim.new(0, 2)
-UICorner_4.Parent = Slider_2
-
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 200, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient.Parent = Slider_2
-
-Sliderbg.Name = "Sliderbg"
-Sliderbg.Parent = Slider_2
-Sliderbg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Sliderbg.BackgroundTransparency = 1.000
-Sliderbg.Position = UDim2.new(-0.0197321121, 0, 0.354421526, 0)
-Sliderbg.Size = UDim2.new(0, 232, 0, 6)
-Sliderbg.ZIndex = 0
-Sliderbg.Image = "rbxassetid://6597213248"
-
-WalkspeedTitle.Name = "WalkspeedTitle"
-WalkspeedTitle.Parent = Slider_2
-WalkspeedTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-WalkspeedTitle.BackgroundTransparency = 1.000
-WalkspeedTitle.Position = UDim2.new(0, 0, 0.670211017, 0)
-WalkspeedTitle.Size = UDim2.new(0, 227, 0, 12)
-WalkspeedTitle.ZIndex = 0
-WalkspeedTitle.Font = Enum.Font.Arcade
-WalkspeedTitle.Text = "Walk Speed Value"
-WalkspeedTitle.TextColor3 = Color3.fromRGB(139, 139, 139)
-WalkspeedTitle.TextSize = 14.000
-
-Value_2.Name = "Value"
-Value_2.Parent = Slider
-Value_2.AnchorPoint = Vector2.new(0.5, 0.5)
-Value_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Value_2.BackgroundTransparency = 1.000
-Value_2.Position = UDim2.new(0.497957259, 0, 0.409193426, 0)
-Value_2.Size = UDim2.new(0, 168, 0, 17)
-Value_2.Font = Enum.Font.Ubuntu
-Value_2.Text = "Val | Max"
-Value_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Value_2.TextScaled = true
-Value_2.TextSize = 18.000
-Value_2.TextStrokeTransparency = 0.500
-Value_2.TextTransparency = 1.000
-Value_2.TextWrapped = true
-
-UICorner_5.CornerRadius = UDim.new(0, 3)
-UICorner_5.Parent = Value_2
-
-AbsoluteValue.Name = "AbsoluteValue"
-AbsoluteValue.Parent = Slider
-AbsoluteValue.AnchorPoint = Vector2.new(0.5, 0.5)
-AbsoluteValue.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-AbsoluteValue.BackgroundTransparency = 1.000
-AbsoluteValue.Position = UDim2.new(0.502419353, 0, 0.878188074, 0)
-AbsoluteValue.Size = UDim2.new(0, 80, 0, 30)
-AbsoluteValue.Font = Enum.Font.Ubuntu
-AbsoluteValue.Text = ""
-AbsoluteValue.TextColor3 = Color3.fromRGB(113, 113, 113)
-AbsoluteValue.TextSize = 12.000
-AbsoluteValue.TextTransparency = 1.000
-
 PlayerXray.Name = "PlayerXray"
 PlayerXray.Parent = Character
 PlayerXray.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -380,14 +239,6 @@ NoClip.BackgroundTransparency = 0.900
 NoClip.Position = UDim2.new(0.00400000019, 0, 0.491348803, 0)
 NoClip.Size = UDim2.new(0, 249, 0, 30)
 
-Checkbox_4.Name = "Checkbox"
-Checkbox_4.Parent = NoClip
-Checkbox_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Checkbox_4.BackgroundTransparency = 1.000
-Checkbox_4.Position = UDim2.new(0.812096357, 0, 0.0612903163, 0)
-Checkbox_4.Size = UDim2.new(0, 26, 0, 26)
-Checkbox_4.Image = "rbxassetid://6531499312"
-
 Title_5.Name = "Title"
 Title_5.Parent = NoClip
 Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -401,6 +252,14 @@ Title_5.TextColor3 = Color3.fromRGB(139, 139, 139)
 Title_5.TextScaled = true
 Title_5.TextSize = 14.000
 Title_5.TextWrapped = true
+
+Checkbox_4.Name = "Checkbox"
+Checkbox_4.Parent = NoClip
+Checkbox_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checkbox_4.BackgroundTransparency = 1.000
+Checkbox_4.Position = UDim2.new(0.812096357, 0, 0.0612903163, 0)
+Checkbox_4.Size = UDim2.new(0, 26, 0, 26)
+Checkbox_4.Image = "rbxassetid://6531499312"
 
 Invisible.Name = "Invisible"
 Invisible.Parent = Character
@@ -524,8 +383,148 @@ JumpHeight.BackgroundTransparency = 0.900
 JumpHeight.Position = UDim2.new(0.00400006119, 0, 0.223502249, 0)
 JumpHeight.Size = UDim2.new(0, 249, 0, 55)
 
+Slider.Name = "Slider"
+Slider.Parent = JumpHeight
+Slider.AnchorPoint = Vector2.new(0.5, 0.5)
+Slider.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Slider.BackgroundTransparency = 1.000
+Slider.BorderSizePixel = 0
+Slider.Position = UDim2.new(0.133919001, 0, 0.439763218, 0)
+Slider.Size = UDim2.new(0.272838116, 0, 0.926929832, 0)
+
+Slider_2.Name = "Slider"
+Slider_2.Parent = Slider
+Slider_2.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+Slider_2.BackgroundTransparency = 1.000
+Slider_2.BorderSizePixel = 0
+Slider_2.Position = UDim2.new(0.171901539, 0, 0.373747259, 0)
+Slider_2.Size = UDim2.new(0, 224, 0, 19)
+Slider_2.AutoButtonColor = false
+Slider_2.Font = Enum.Font.SourceSans
+Slider_2.Text = ""
+Slider_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slider_2.TextSize = 14.000
+
+Indicator.Name = "Indicator"
+Indicator.Parent = Slider_2
+Indicator.BackgroundColor3 = Color3.fromRGB(85, 170, 0)
+Indicator.BackgroundTransparency = 1.000
+Indicator.BorderSizePixel = 0
+Indicator.Position = UDim2.new(-0.00131054246, 0, 0, 0)
+Indicator.Size = UDim2.new(0, 0, 1, 0)
+
+HolderButton.Name = "HolderButton"
+HolderButton.Parent = Indicator
+HolderButton.AnchorPoint = Vector2.new(0.5, 0.5)
+HolderButton.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
+HolderButton.BackgroundTransparency = 1.000
+HolderButton.Position = UDim2.new(INF, 0, 0.5, 0)
+HolderButton.Size = UDim2.new(0, 13, 0, 25)
+HolderButton.ZIndex = 5
+HolderButton.Font = Enum.Font.SourceSans
+HolderButton.Text = ""
+HolderButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+HolderButton.TextSize = 14.000
+HolderButton.TextTransparency = 2.000
+
+UICorner.CornerRadius = UDim.new(0, 3)
+UICorner.Parent = HolderButton
+
+Value.Name = "Value"
+Value.Parent = HolderButton
+Value.AnchorPoint = Vector2.new(0.5, 0.5)
+Value.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Value.BackgroundTransparency = 1.000
+Value.Position = UDim2.new(0.699999988, 0, -0.360000014, 0)
+Value.Size = UDim2.new(0, 36, 0, 18)
+Value.Font = Enum.Font.Arcade
+Value.Text = "0"
+Value.TextColor3 = Color3.fromRGB(209, 209, 209)
+Value.TextSize = 14.000
+Value.TextTransparency = 1.000
+
+UICorner_2.CornerRadius = UDim.new(0, 3)
+UICorner_2.Parent = Value
+
+SliderImg.Name = "SliderImg"
+SliderImg.Parent = HolderButton
+SliderImg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SliderImg.BackgroundTransparency = 1.000
+SliderImg.Position = UDim2.new(-0.0787956268, 0, 1.2207031e-06, 0)
+SliderImg.Size = UDim2.new(0, 14, 0, 24)
+SliderImg.Image = "rbxassetid://6597165862"
+
+UICorner_3.CornerRadius = UDim.new(0, 2)
+UICorner_3.Parent = Indicator
+
+UICorner_4.CornerRadius = UDim.new(0, 2)
+UICorner_4.Parent = Slider_2
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 200, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Slider_2
+
+Sliderbg.Name = "Sliderbg"
+Sliderbg.Parent = Slider_2
+Sliderbg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sliderbg.BackgroundTransparency = 1.000
+Sliderbg.Position = UDim2.new(-0.0197321121, 0, 0.354421526, 0)
+Sliderbg.Size = UDim2.new(0, 232, 0, 6)
+Sliderbg.ZIndex = 0
+Sliderbg.Image = "rbxassetid://6597213248"
+
+JumpheightTitle.Name = "JumpheightTitle"
+JumpheightTitle.Parent = Slider_2
+JumpheightTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpheightTitle.BackgroundTransparency = 1.000
+JumpheightTitle.Position = UDim2.new(0, 0, 0.670211017, 0)
+JumpheightTitle.Size = UDim2.new(0, 227, 0, 12)
+JumpheightTitle.ZIndex = 0
+JumpheightTitle.Font = Enum.Font.Arcade
+JumpheightTitle.Text = "Jump Power Value"
+JumpheightTitle.TextColor3 = Color3.fromRGB(139, 139, 139)
+JumpheightTitle.TextSize = 14.000
+
+Value_2.Name = "Value"
+Value_2.Parent = Slider
+Value_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Value_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Value_2.BackgroundTransparency = 1.000
+Value_2.Position = UDim2.new(0.497957259, 0, 0.409193426, 0)
+Value_2.Size = UDim2.new(0, 168, 0, 17)
+Value_2.Font = Enum.Font.Ubuntu
+Value_2.Text = "Val | Max"
+Value_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Value_2.TextScaled = true
+Value_2.TextSize = 18.000
+Value_2.TextStrokeTransparency = 0.500
+Value_2.TextTransparency = 1.000
+Value_2.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = Value_2
+
+AbsoluteValue.Name = "AbsoluteValue"
+AbsoluteValue.Parent = Slider
+AbsoluteValue.AnchorPoint = Vector2.new(0.5, 0.5)
+AbsoluteValue.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+AbsoluteValue.BackgroundTransparency = 1.000
+AbsoluteValue.Position = UDim2.new(0.502419353, 0, 0.878188074, 0)
+AbsoluteValue.Size = UDim2.new(0, 80, 0, 30)
+AbsoluteValue.Font = Enum.Font.Ubuntu
+AbsoluteValue.Text = ""
+AbsoluteValue.TextColor3 = Color3.fromRGB(113, 113, 113)
+AbsoluteValue.TextSize = 12.000
+AbsoluteValue.TextTransparency = 1.000
+
+Walkspeed.Name = "Walkspeed"
+Walkspeed.Parent = Character
+Walkspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Walkspeed.BackgroundTransparency = 0.900
+Walkspeed.Position = UDim2.new(0.00400006119, 0, 0.0967741236, 0)
+Walkspeed.Size = UDim2.new(0, 249, 0, 55)
+
 Slider_3.Name = "Slider"
-Slider_3.Parent = JumpHeight
+Slider_3.Parent = Walkspeed
 Slider_3.AnchorPoint = Vector2.new(0.5, 0.5)
 Slider_3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Slider_3.BackgroundTransparency = 1.000
@@ -559,7 +558,7 @@ HolderButton_2.Parent = Indicator_2
 HolderButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
 HolderButton_2.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
 HolderButton_2.BackgroundTransparency = 1.000
-HolderButton_2.Position = UDim2.new(INF, 0, 0.5, 0)
+HolderButton_2.Position = UDim2.new(1, 0, 0.5, 0)
 HolderButton_2.Size = UDim2.new(0, 13, 0, 25)
 HolderButton_2.ZIndex = 5
 HolderButton_2.Font = Enum.Font.SourceSans
@@ -613,17 +612,17 @@ Sliderbg_2.Size = UDim2.new(0, 232, 0, 6)
 Sliderbg_2.ZIndex = 0
 Sliderbg_2.Image = "rbxassetid://6597213248"
 
-JumpheightTitle.Name = "JumpheightTitle"
-JumpheightTitle.Parent = Slider_4
-JumpheightTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-JumpheightTitle.BackgroundTransparency = 1.000
-JumpheightTitle.Position = UDim2.new(0, 0, 0.670211017, 0)
-JumpheightTitle.Size = UDim2.new(0, 227, 0, 12)
-JumpheightTitle.ZIndex = 0
-JumpheightTitle.Font = Enum.Font.Arcade
-JumpheightTitle.Text = "Jump Power Value"
-JumpheightTitle.TextColor3 = Color3.fromRGB(139, 139, 139)
-JumpheightTitle.TextSize = 14.000
+WalkspeedTitle.Name = "WalkspeedTitle"
+WalkspeedTitle.Parent = Slider_4
+WalkspeedTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WalkspeedTitle.BackgroundTransparency = 1.000
+WalkspeedTitle.Position = UDim2.new(0, 0, 0.670211017, 0)
+WalkspeedTitle.Size = UDim2.new(0, 227, 0, 12)
+WalkspeedTitle.ZIndex = 0
+WalkspeedTitle.Font = Enum.Font.Arcade
+WalkspeedTitle.Text = "Walk Speed Value"
+WalkspeedTitle.TextColor3 = Color3.fromRGB(139, 139, 139)
+WalkspeedTitle.TextSize = 14.000
 
 Value_4.Name = "Value"
 Value_4.Parent = Slider_3
@@ -1032,7 +1031,7 @@ Line_2.Image = "rbxassetid://6531586437"
 
 -- Scripts:
 
-local function YGWAKN_fake_script() -- Checkbox.SetValue 
+local function FMWWVLK_fake_script() -- Checkbox.SetValue 
 	local script = Instance.new('LocalScript', Checkbox)
 
 	
@@ -1079,108 +1078,8 @@ local function YGWAKN_fake_script() -- Checkbox.SetValue
 	
 	
 end
-coroutine.wrap(YGWAKN_fake_script)()
-local function OPIIVVX_fake_script() -- Slider.SliderController 
-	local script = Instance.new('LocalScript', Slider)
-
-	local Slider = script.Parent.Slider
-	local UserInputService = game:GetService("UserInputService")
-	local TweenService = game:GetService("TweenService")
-	local Dragging = false
-	
-	local Player = game.Players.LocalPlayer
-	local Character = Player.Character
-	
-	local MaxValue = 250
-	local MinValue = 16
-	
-	local currentSlideValue = Instance.new("IntValue")
-	currentSlideValue.Name = "Value"
-	currentSlideValue.Value = 0
-	currentSlideValue.Value.Parent = Slider
-	
-	local function Update()
-		if Dragging == true then
-			local MousePos = UserInputService:GetMouseLocation()
-			local MinPoint = (Slider.AbsolutePosition.X)
-			local MaxPoint = (Slider.AbsolutePosition.X + Slider.AbsoluteSize.X)
-			
-			if MousePos.X < MinPoint then
-				Slider.Indicator:TweenSize(UDim2.fromScale(0, 1), "Out", "Sine", 0.1, true)
-			elseif MousePos.X > MaxPoint then
-				Slider.Indicator:TweenSize(UDim2.fromScale(1, 1), "Out", "Sine", 0.1, true)
-			else
-				Slider.Indicator:TweenSize(UDim2.fromScale((MousePos.X - Slider.AbsolutePosition.X) / Slider.AbsoluteSize.X, 1), "Out", "Sine", 0.1, true)
-			end
-			
-			wait(0.1)
-			
-			local Percent = (Slider.Indicator.HolderButton.AbsolutePosition.X - Slider.AbsolutePosition.X) / (Slider.AbsoluteSize.X - Slider.Indicator.HolderButton.Size.X.Offset) * MaxValue
-	
-			Slider.Value.Value = Percent
-	
-			if math.floor(Slider.Value.Value) < MinValue then
-				Slider.Value.Value = MinValue
-			elseif math.floor(Slider.Value.Value) > MaxValue then
-				Slider.Value.Value = MaxValue
-			end
-			
-			Slider.Parent.AbsoluteValue.Text = Percent
-			Slider.Indicator.HolderButton.Value.Text = tostring(math.floor(Slider.Value.Value))
-			Slider.Parent.Value.Text = tostring(math.floor(Slider.Value.Value)).." | "..MaxValue
-			
-			Character.Humanoid.WalkSpeed = Slider.Value.Value
-		end
-	end
-	
-	Slider.MouseEnter:Connect(function()
-		if Dragging == false then
-			TweenService:Create(Slider.Indicator, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(85, 130, 0)}):Play()
-			TweenService:Create(Slider.Indicator.HolderButton, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(200, 200, 200)}):Play()
-		end
-	end)
-	
-	Slider.MouseLeave:Connect(function()
-		if Dragging == false then
-			TweenService:Create(Slider.Indicator, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(85, 170, 0)}):Play()
-			TweenService:Create(Slider.Indicator.HolderButton, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(190, 190, 190)}):Play()
-		end	
-	end)
-	
-	Slider.MouseButton1Down:Connect(function()
-		Dragging = true
-		TweenService:Create(Slider.Indicator, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(85, 190, 0)}):Play()
-		TweenService:Create(Slider.Indicator.HolderButton, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}):Play()
-		TweenService:Create(Slider.Indicator.HolderButton.Value, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundTransparency = 0, TextTransparency = 0}):Play()
-		Update()
-	end)
-	
-	UserInputService.InputEnded:Connect(function(Input)
-		if Input.UserInputType == Enum.UserInputType.MouseButton1 then
-			Dragging = false
-			TweenService:Create(Slider.Indicator, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(85, 170, 0)}):Play()
-			TweenService:Create(Slider.Indicator.HolderButton, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(190, 190, 190)}):Play()
-			TweenService:Create(Slider.Indicator.HolderButton.Value, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundTransparency = 1, TextTransparency = 1}):Play()
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(Update)
-	
-	local Percent = (Slider.Indicator.HolderButton.AbsolutePosition.X - Slider.AbsolutePosition.X) / (Slider.AbsoluteSize.X - Slider.Indicator.HolderButton.Size.X.Offset) * MaxValue
-	
-	Slider.Value.Value = Percent
-	
-	if math.floor(Slider.Value.Value) < MinValue then
-		Slider.Value.Value = MinValue
-	elseif math.floor(Slider.Value.Value) > MaxValue then
-		Slider.Value.Value = MaxValue
-	end
-	
-	Slider.Indicator.HolderButton.Value.Text = tostring(math.floor(Slider.Value.Value))
-	Slider.Parent.Value.Text = tostring(math.floor(Slider.Value.Value)).." | "..MaxValue
-end
-coroutine.wrap(OPIIVVX_fake_script)()
-local function DHLZGXG_fake_script() -- Checkbox_2.SetValue 
+coroutine.wrap(FMWWVLK_fake_script)()
+local function TKETTAL_fake_script() -- Checkbox_2.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_2)
 
 	local crashy = true -- CHANGE THIS TO TRUE IF IT CRASHES THIS GAME
@@ -1352,8 +1251,8 @@ local function DHLZGXG_fake_script() -- Checkbox_2.SetValue
 		end)
 	end)
 end
-coroutine.wrap(DHLZGXG_fake_script)()
-local function DNJQW_fake_script() -- Checkbox_3.SetValue 
+coroutine.wrap(TKETTAL_fake_script)()
+local function VRRBQ_fake_script() -- Checkbox_3.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_3)
 
 	local obj = game.workspace
@@ -1392,8 +1291,8 @@ local function DNJQW_fake_script() -- Checkbox_3.SetValue
 		end
 	end)
 end
-coroutine.wrap(DNJQW_fake_script)()
-local function LGLMY_fake_script() -- Checkbox_4.SetValue 
+coroutine.wrap(VRRBQ_fake_script)()
+local function CWGYU_fake_script() -- Checkbox_4.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_4)
 
 	
@@ -1424,8 +1323,8 @@ local function LGLMY_fake_script() -- Checkbox_4.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(LGLMY_fake_script)()
-local function XWYH_fake_script() -- Checkbox_5.SetValue 
+coroutine.wrap(CWGYU_fake_script)()
+local function FSMJT_fake_script() -- Checkbox_5.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_5)
 
 	Local = game:GetService('Players').LocalPlayer
@@ -1483,8 +1382,8 @@ local function XWYH_fake_script() -- Checkbox_5.SetValue
 	
 	
 end
-coroutine.wrap(XWYH_fake_script)()
-local function ZPMMGK_fake_script() -- Checkbox_6.SetValue 
+coroutine.wrap(FSMJT_fake_script)()
+local function PIYY_fake_script() -- Checkbox_6.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_6)
 
 	_G.infinjump = false
@@ -1517,8 +1416,8 @@ local function ZPMMGK_fake_script() -- Checkbox_6.SetValue
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(ZPMMGK_fake_script)()
-local function TSHOENW_fake_script() -- Checkbox_7.SetValue 
+coroutine.wrap(PIYY_fake_script)()
+local function DKGNEKW_fake_script() -- Checkbox_7.SetValue 
 	local script = Instance.new('LocalScript', Checkbox_7)
 
 	flying = false
@@ -1625,9 +1524,9 @@ local function TSHOENW_fake_script() -- Checkbox_7.SetValue
 		end)
 		end)
 end
-coroutine.wrap(TSHOENW_fake_script)()
-local function QVGXGC_fake_script() -- Slider_3.SliderController 
-	local script = Instance.new('LocalScript', Slider_3)
+coroutine.wrap(DKGNEKW_fake_script)()
+local function ZOVNJ_fake_script() -- Slider.SliderController 
+	local script = Instance.new('LocalScript', Slider)
 
 	local Slider = script.Parent.Slider
 	local UserInputService = game:GetService("UserInputService")
@@ -1638,12 +1537,11 @@ local function QVGXGC_fake_script() -- Slider_3.SliderController
 	local Character = Player.Character
 	
 	local MaxValue = 1000
-	local MinValue = 50
+	local MinValue = 0
 	
 	local currentSlideValue = Instance.new("IntValue")
-	currentSlideValue.Name = "Value"
-	currentSlideValue.Value = 0
-	currentSlideValue.Value.Parent = Slider
+	currentSlideValue.Value = 50
+	currentSlideValue.Parent = Slider
 	
 	local function Update()
 		if Dragging == true then
@@ -1725,8 +1623,107 @@ local function QVGXGC_fake_script() -- Slider_3.SliderController
 	Slider.Indicator.HolderButton.Value.Text = tostring(math.floor(Slider.Value.Value))
 	Slider.Parent.Value.Text = tostring(math.floor(Slider.Value.Value)).." | "..MaxValue
 end
-coroutine.wrap(QVGXGC_fake_script)()
-local function RBGM_fake_script() -- AssassinButton.ScriptLoader 
+coroutine.wrap(ZOVNJ_fake_script)()
+local function YMCCEF_fake_script() -- Slider_3.SliderController 
+	local script = Instance.new('LocalScript', Slider_3)
+
+	local Slider = script.Parent.Slider
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	local Dragging = false
+	
+	local Player = game.Players.LocalPlayer
+	local Character = Player.Character
+	
+	local MaxValue = 250
+	local MinValue = 16
+	
+	local currentSlideValue = Instance.new("IntValue")
+	currentSlideValue.Value = 16
+	currentSlideValue.Parent = Slider
+	
+	local function Update()
+		if Dragging == true then
+			local MousePos = UserInputService:GetMouseLocation()
+			local MinPoint = (Slider.AbsolutePosition.X)
+			local MaxPoint = (Slider.AbsolutePosition.X + Slider.AbsoluteSize.X)
+			
+			if MousePos.X < MinPoint then
+				Slider.Indicator:TweenSize(UDim2.fromScale(0, 1), "Out", "Sine", 0.1, true)
+			elseif MousePos.X > MaxPoint then
+				Slider.Indicator:TweenSize(UDim2.fromScale(1, 1), "Out", "Sine", 0.1, true)
+			else
+				Slider.Indicator:TweenSize(UDim2.fromScale((MousePos.X - Slider.AbsolutePosition.X) / Slider.AbsoluteSize.X, 1), "Out", "Sine", 0.1, true)
+			end
+			
+			wait(0.1)
+			
+			local Percent = (Slider.Indicator.HolderButton.AbsolutePosition.X - Slider.AbsolutePosition.X) / (Slider.AbsoluteSize.X - Slider.Indicator.HolderButton.Size.X.Offset) * MaxValue
+	
+			Slider.Value.Value = Percent
+	
+			if math.floor(Slider.Value.Value) < MinValue then
+				Slider.Value.Value = MinValue
+			elseif math.floor(Slider.Value.Value) > MaxValue then
+				Slider.Value.Value = MaxValue
+			end
+			
+			Slider.Parent.AbsoluteValue.Text = Percent
+			Slider.Indicator.HolderButton.Value.Text = tostring(math.floor(Slider.Value.Value))
+			Slider.Parent.Value.Text = tostring(math.floor(Slider.Value.Value)).." | "..MaxValue
+			
+			Character.Humanoid.WalkSpeed = Slider.Value.Value
+		end
+	end
+	
+	Slider.MouseEnter:Connect(function()
+		if Dragging == false then
+			TweenService:Create(Slider.Indicator, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(85, 130, 0)}):Play()
+			TweenService:Create(Slider.Indicator.HolderButton, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(200, 200, 200)}):Play()
+		end
+	end)
+	
+	Slider.MouseLeave:Connect(function()
+		if Dragging == false then
+			TweenService:Create(Slider.Indicator, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(85, 170, 0)}):Play()
+			TweenService:Create(Slider.Indicator.HolderButton, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(190, 190, 190)}):Play()
+		end	
+	end)
+	
+	Slider.MouseButton1Down:Connect(function()
+		Dragging = true
+		TweenService:Create(Slider.Indicator, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(85, 190, 0)}):Play()
+		TweenService:Create(Slider.Indicator.HolderButton, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}):Play()
+		TweenService:Create(Slider.Indicator.HolderButton.Value, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundTransparency = 0, TextTransparency = 0}):Play()
+		Update()
+	end)
+	
+	UserInputService.InputEnded:Connect(function(Input)
+		if Input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+			TweenService:Create(Slider.Indicator, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(85, 170, 0)}):Play()
+			TweenService:Create(Slider.Indicator.HolderButton, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(190, 190, 190)}):Play()
+			TweenService:Create(Slider.Indicator.HolderButton.Value, TweenInfo.new(0.1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundTransparency = 1, TextTransparency = 1}):Play()
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(Update)
+	
+	local Percent = (Slider.Indicator.HolderButton.AbsolutePosition.X - Slider.AbsolutePosition.X) / (Slider.AbsoluteSize.X - Slider.Indicator.HolderButton.Size.X.Offset) * MaxValue
+	
+	Slider.Value.Value = Percent
+	
+	if math.floor(Slider.Value.Value) < MinValue then
+		Slider.Value.Value = MinValue
+	elseif math.floor(Slider.Value.Value) > MaxValue then
+		Slider.Value.Value = MaxValue
+	end
+	
+	Slider.Indicator.HolderButton.Value.Text = tostring(math.floor(Slider.Value.Value))
+	Slider.Parent.Value.Text = tostring(math.floor(Slider.Value.Value)).." | "..MaxValue
+end
+coroutine.wrap(YMCCEF_fake_script)()
+local function QQQNK_fake_script() -- AssassinButton.ScriptLoader 
 	local script = Instance.new('LocalScript', AssassinButton)
 
 	local Spawned = false
@@ -1742,8 +1739,8 @@ local function RBGM_fake_script() -- AssassinButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(RBGM_fake_script)()
-local function NWVYFZ_fake_script() -- ChatBypassButton.ScriptLoader 
+coroutine.wrap(QQQNK_fake_script)()
+local function BPYC_fake_script() -- ChatBypassButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ChatBypassButton)
 
 	local Spawned = false
@@ -1759,8 +1756,8 @@ local function NWVYFZ_fake_script() -- ChatBypassButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(NWVYFZ_fake_script)()
-local function ZWWLW_fake_script() -- MM2Button.ScriptLoader 
+coroutine.wrap(BPYC_fake_script)()
+local function SXAKSN_fake_script() -- MM2Button.ScriptLoader 
 	local script = Instance.new('LocalScript', MM2Button)
 
 	local Spawned = false
@@ -1776,8 +1773,8 @@ local function ZWWLW_fake_script() -- MM2Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(ZWWLW_fake_script)()
-local function LFMOER_fake_script() -- NullwareHubButton.ScriptLoader 
+coroutine.wrap(SXAKSN_fake_script)()
+local function SVDB_fake_script() -- NullwareHubButton.ScriptLoader 
 	local script = Instance.new('LocalScript', NullwareHubButton)
 
 	local Spawned = false
@@ -1793,8 +1790,8 @@ local function LFMOER_fake_script() -- NullwareHubButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(LFMOER_fake_script)()
-local function DGVM_fake_script() -- ProjectPokeButton.ScriptLoader 
+coroutine.wrap(SVDB_fake_script)()
+local function PYCUG_fake_script() -- ProjectPokeButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ProjectPokeButton)
 
 	local Spawned = false
@@ -1810,8 +1807,8 @@ local function DGVM_fake_script() -- ProjectPokeButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DGVM_fake_script)()
-local function NIZREHO_fake_script() -- SSSButton.ScriptLoader 
+coroutine.wrap(PYCUG_fake_script)()
+local function BQVCQVY_fake_script() -- SSSButton.ScriptLoader 
 	local script = Instance.new('LocalScript', SSSButton)
 
 	local Spawned = false
@@ -1827,8 +1824,8 @@ local function NIZREHO_fake_script() -- SSSButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(NIZREHO_fake_script)()
-local function FTKFYB_fake_script() -- SpecHub1Button.ScriptLoader 
+coroutine.wrap(BQVCQVY_fake_script)()
+local function RXBDJ_fake_script() -- SpecHub1Button.ScriptLoader 
 	local script = Instance.new('LocalScript', SpecHub1Button)
 
 	local Spawned = false
@@ -1844,8 +1841,8 @@ local function FTKFYB_fake_script() -- SpecHub1Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(FTKFYB_fake_script)()
-local function MKXKZ_fake_script() -- SpecHub2Button.ScriptLoader 
+coroutine.wrap(RXBDJ_fake_script)()
+local function FDSWA_fake_script() -- SpecHub2Button.ScriptLoader 
 	local script = Instance.new('LocalScript', SpecHub2Button)
 
 	local Spawned = false
@@ -1860,8 +1857,8 @@ local function MKXKZ_fake_script() -- SpecHub2Button.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(MKXKZ_fake_script)()
-local function AURRRE_fake_script() -- WheresTheBabyButton.ScriptLoader 
+coroutine.wrap(FDSWA_fake_script)()
+local function FLWHGZI_fake_script() -- WheresTheBabyButton.ScriptLoader 
 	local script = Instance.new('LocalScript', WheresTheBabyButton)
 
 	local Spawned = false
@@ -1876,8 +1873,8 @@ local function AURRRE_fake_script() -- WheresTheBabyButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(AURRRE_fake_script)()
-local function ZWLTI_fake_script() -- ShindoLifeButton.ScriptLoader 
+coroutine.wrap(FLWHGZI_fake_script)()
+local function CGXACO_fake_script() -- ShindoLifeButton.ScriptLoader 
 	local script = Instance.new('LocalScript', ShindoLifeButton)
 
 	local Spawned = false
@@ -1892,8 +1889,8 @@ local function ZWLTI_fake_script() -- ShindoLifeButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(ZWLTI_fake_script)()
-local function DIUN_fake_script() -- AnimateButton.ScriptLoader 
+coroutine.wrap(CGXACO_fake_script)()
+local function GYEUF_fake_script() -- AnimateButton.ScriptLoader 
 	local script = Instance.new('LocalScript', AnimateButton)
 
 	local Spawned = false
@@ -1909,8 +1906,8 @@ local function DIUN_fake_script() -- AnimateButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(DIUN_fake_script)()
-local function VAMIS_fake_script() -- CartRideButton.ScriptLoader 
+coroutine.wrap(GYEUF_fake_script)()
+local function DPFA_fake_script() -- CartRideButton.ScriptLoader 
 	local script = Instance.new('LocalScript', CartRideButton)
 
 	local Spawned = false
@@ -1926,8 +1923,8 @@ local function VAMIS_fake_script() -- CartRideButton.ScriptLoader
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(VAMIS_fake_script)()
-local function KJIVM_fake_script() -- PageSelector.PageScript 
+coroutine.wrap(DPFA_fake_script)()
+local function RGGX_fake_script() -- PageSelector.PageScript 
 	local script = Instance.new('LocalScript', PageSelector)
 
 	local pageLayout = script.Parent.Parent.Pages.UIPageLayout
@@ -1961,4 +1958,4 @@ local function KJIVM_fake_script() -- PageSelector.PageScript
 	
 	pageLayout:JumpToIndex( 0 )
 end
-coroutine.wrap(KJIVM_fake_script)()
+coroutine.wrap(RGGX_fake_script)()
